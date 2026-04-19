@@ -1,0 +1,49 @@
+family,dataset,concept,role,n,retention_rate,spearman_r,spearman_p,ci_lower,ci_upper,homeland_name
+Austronesian,ABVD (JLE baseline),SEA,anchor,612,0.4951,0.4221,0.0000,0.3583,0.4954,Taiwan
+Austronesian,ABVD (JLE baseline),LEFT,control,630,0.4063,0.2578,0.0000,0.1743,0.3353,Taiwan
+Austronesian,ABVD (JLE baseline),RIGHT,control,606,0.3548,-0.5849,0.0000,-0.6369,-0.5325,Taiwan
+Austronesian,ABVD (JLE baseline),ABOVE,control,351,0.2678,-0.2842,0.0000,-0.3769,-0.1937,Taiwan
+Austronesian,ABVD (JLE baseline),BELOW,control,360,0.2250,-0.0994,0.0596,-0.1919,0.0031,Taiwan
+Indo-European,IECoR (Steppe homeland),RIVER,anchor,122,0.2131,-0.0620,0.4978,-0.2711,0.1154,Pontic-Caspian steppe
+Indo-European,IECoR (Steppe homeland),FOREST,anchor,93,0.1183,-0.3374,0.0009,-0.4687,-0.2030,Pontic-Caspian steppe
+Indo-European,IECoR (Steppe homeland),DOG,anchor,131,0.6260,0.0526,0.5510,-0.1279,0.2389,Pontic-Caspian steppe
+Indo-European,IECoR (Steppe homeland),SALT,anchor,130,0.6769,0.1122,0.2037,-0.0518,0.2835,Pontic-Caspian steppe
+Indo-European,IECoR (Steppe homeland),SEA,control,110,0.5273,0.1657,0.0836,-0.0285,0.3496,Pontic-Caspian steppe
+Indo-European,IECoR (Steppe homeland),TREE,control,122,0.2869,-0.4433,0.0000,-0.5780,-0.2842,Pontic-Caspian steppe
+Indo-European,IECoR (Steppe homeland),LEFT,control,116,0.1466,-0.3447,0.0002,-0.4635,-0.2192,Pontic-Caspian steppe
+Indo-European,IECoR (Steppe homeland),RIGHT,control,141,0.4184,0.1950,0.0205,0.0348,0.3623,Pontic-Caspian steppe
+Indo-European,IECoR (Steppe homeland),MOUNTAIN,control,139,0.2086,0.4104,0.0000,0.2816,0.5440,Pontic-Caspian steppe
+Sino-Tibetan,sagartst,RICE,anchor,23,0.3043,0.2707,0.2116,-0.1233,0.6080,Upper Yellow River basin
+Sino-Tibetan,sagartst,MOUNTAIN,anchor,36,0.1667,-0.0502,0.7711,-0.3067,0.2146,Upper Yellow River basin
+Sino-Tibetan,sagartst,SALT,anchor,40,0.4500,-0.3874,0.0135,-0.6264,-0.1029,Upper Yellow River basin
+Sino-Tibetan,sagartst,BARLEY,anchor,21,0.0952,-0.2679,0.2404,-0.5413,0.0398,Upper Yellow River basin
+Sino-Tibetan,sagartst,SEA,control,23,0.2174,-0.3496,0.1020,-0.6544,0.0128,Upper Yellow River basin
+Sino-Tibetan,sagartst,HORSE,control,27,0.5556,-0.2584,0.1932,-0.5841,0.0946,Upper Yellow River basin
+Sino-Tibetan,sagartst,LEFT,control,39,0.3077,0.0494,0.7654,-0.2936,0.3463,Upper Yellow River basin
+Sino-Tibetan,sagartst,RIGHT,control,46,0.3261,-0.0996,0.5104,-0.3564,0.1916,Upper Yellow River basin
+Sino-Tibetan,sagartst,TREE,control,45,0.6444,-0.1609,0.2912,-0.4239,0.1312,Upper Yellow River basin
+Sino-Tibetan,sagartst,RIVER,control,43,0.1163,0.1520,0.3305,-0.0461,0.3570,Upper Yellow River basin
+Sino-Tibetan,"ST pooled (sagartst+zhangst+peirosst, harmonised)",MOUNTAIN,control,113,0.0442,-0.1293,0.1723,-0.2156,-0.0410,Upper Yellow River basin
+Sino-Tibetan,"ST pooled (sagartst+zhangst+peirosst, harmonised)",TREE,control,140,0.3071,-0.1642,0.0526,-0.3273,-0.0025,Upper Yellow River basin
+Sino-Tibetan,"ST pooled (sagartst+zhangst+peirosst, harmonised)",FIRE,control,134,0.2313,-0.1558,0.0723,-0.3272,0.0296,Upper Yellow River basin
+Sino-Tibetan,"ST pooled (sagartst+zhangst+peirosst, harmonised)",WATER,control,134,0.1343,0.2025,0.0189,0.0695,0.3257,Upper Yellow River basin
+Sino-Tibetan,"ST pooled (sagartst+zhangst+peirosst, harmonised)",STONE,control,144,0.2986,-0.0593,0.4800,-0.2352,0.1179,Upper Yellow River basin
+Sino-Tibetan,"STEDT bulk (Method B, NLD≤0.4)",RICE,anchor,99,,-0.1813,0.0725,-0.3394,0.0240,Upper Yellow River basin
+Sino-Tibetan,"STEDT bulk (Method B, NLD≤0.4)",SALT,supplementary anchor,107,,-0.0817,0.4027,-0.2701,0.1010,Upper Yellow River basin
+Sino-Tibetan,"STEDT bulk (Method B, NLD≤0.4)",BARLEY,highland-adaptation anchor,61,,-0.1881,0.1466,-0.3310,-0.0457,Upper Yellow River basin
+Sino-Tibetan,"STEDT bulk (Method B, NLD≤0.4)",YAK,highland-adaptation anchor,41,,0.2488,0.1167,0.1204,0.4292,Upper Yellow River basin
+Bantu,Grollemund 2015,TREE,control,331,0.7251,-0.1312,0.0169,-0.2415,-0.0209,Grassfields (Cameroon/Nigeria border)
+Bantu,Grollemund 2015,FIRE,control,333,0.2372,0.6542,0.0000,0.5912,0.7080,Grassfields (Cameroon/Nigeria border)
+Bantu,Grollemund 2015,WATER,control,330,0.4182,0.6164,0.0000,0.5459,0.6795,Grassfields (Cameroon/Nigeria border)
+Bantu,Grollemund 2015,STONE,control,326,0.3160,0.5432,0.0000,0.4647,0.6155,Grassfields (Cameroon/Nigeria border)
+Uralic,uralex,FOREST,anchor,11,0.1818,0.2236,0.5086,-0.2427,0.6757,Middle Volga / Kama (Uralic Urheimat)
+Uralic,uralex,SNOW,anchor,18,0.7222,-0.2032,0.4187,-0.5716,0.2058,Middle Volga / Kama (Uralic Urheimat)
+Uralic,uralex,ICE,anchor,22,0.9091,-0.0997,0.6589,-0.5003,0.2998,Middle Volga / Kama (Uralic Urheimat)
+Uralic,uralex,TREE,anchor,22,0.6364,-0.4468,0.0371,-0.7756,-0.0589,Middle Volga / Kama (Uralic Urheimat)
+Uralic,uralex,FIRE,control,23,0.8261,0.2075,0.3421,-0.4027,0.6441,Middle Volga / Kama (Uralic Urheimat)
+Uralic,uralex,WATER,control,8,0.8750,0.5774,0.1340,0.5808,0.8885,Middle Volga / Kama (Uralic Urheimat)
+Uralic,uralex,STONE,control,23,0.4348,-0.1851,0.3978,-0.5622,0.2256,Middle Volga / Kama (Uralic Urheimat)
+Uralic,uralex,RIVER,control,23,0.7391,0.0746,0.7350,-0.4512,0.5889,Middle Volga / Kama (Uralic Urheimat)
+Uralic,uralex,SEA,control,4,0.5000,0.4472,0.5528,-1.0000,1.0000,Middle Volga / Kama (Uralic Urheimat)
+Uralic,uralex,MOUNTAIN,control,22,0.2727,0.5952,0.0035,0.3001,0.8565,Middle Volga / Kama (Uralic Urheimat)
+Uralic,uralex,COLD,control,17,0.2941,0.5534,0.0212,0.1713,0.8695,Middle Volga / Kama (Uralic Urheimat)

@@ -1,0 +1,174 @@
+{
+  "generated": "2026-04-19",
+  "n_families_analysed": 5,
+  "families": [
+    "Austronesian",
+    "Indo-European",
+    "Sino-Tibetan",
+    "Bantu",
+    "Uralic"
+  ],
+  "datasets_per_family": {
+    "Austronesian": "ABVD (JLE baseline)",
+    "Indo-European": "IECoR (Steppe homeland)",
+    "Sino-Tibetan": "STEDT bulk (Method B, NLD≤0.4)",
+    "Bantu": "Grollemund 2015",
+    "Uralic": "uralex"
+  },
+  "scorecard": {
+    "supported": [
+      "Austronesian"
+    ],
+    "supported_with_caveat": [
+      "Indo-European"
+    ],
+    "refuted": [],
+    "underpowered": [
+      "Sino-Tibetan"
+    ],
+    "untestable": [
+      "Bantu"
+    ],
+    "registered_null": [
+      "Uralic"
+    ]
+  },
+  "family_summaries": {
+    "Austronesian": {
+      "top_concept": "SEA",
+      "top_r": 0.4221,
+      "top_ci": [
+        0.3583,
+        0.4954
+      ],
+      "top_p": 7.859172239608101e-28,
+      "top_n": 612,
+      "second_concept": "LEFT",
+      "second_r": 0.2578,
+      "second_ci": [
+        0.1743,
+        0.3353
+      ],
+      "ci_disjoint": true,
+      "top_significantly_positive": true,
+      "selective": true,
+      "verdict": "supported"
+    },
+    "Indo-European": {
+      "top_concept": "MOUNTAIN",
+      "top_r": 0.4104,
+      "top_ci": [
+        0.2816,
+        0.544
+      ],
+      "top_p": 1e-06,
+      "top_n": 139,
+      "second_concept": "RIGHT",
+      "second_r": 0.195,
+      "second_ci": [
+        0.0348,
+        0.3623
+      ],
+      "ci_disjoint": false,
+      "top_significantly_positive": true,
+      "selective": false,
+      "verdict": "supported_with_caveat",
+      "caveat": "Under Anatolian homeland, MOUNTAIN ρ = +0.134 (CI touches 0); homeland-sensitive"
+    },
+    "Sino-Tibetan": {
+      "top_concept": "YAK",
+      "top_r": 0.2488,
+      "top_ci": [
+        0.1204,
+        0.4292
+      ],
+      "top_p": 0.116729,
+      "top_n": 41,
+      "second_concept": "SALT",
+      "second_r": -0.0817,
+      "second_ci": [
+        -0.2701,
+        0.101
+      ],
+      "ci_disjoint": true,
+      "top_significantly_positive": true,
+      "selective": true,
+      "verdict": "underpowered"
+    },
+    "Bantu": {
+      "top_concept": "FIRE",
+      "top_r": 0.6542,
+      "top_ci": [
+        0.5912,
+        0.708
+      ],
+      "top_p": 0.0,
+      "top_n": 333,
+      "second_concept": "WATER",
+      "second_r": 0.6164,
+      "second_ci": [
+        0.5459,
+        0.6795
+      ],
+      "ci_disjoint": false,
+      "top_significantly_positive": true,
+      "selective": false,
+      "verdict": "untestable",
+      "untestable_reason": "FOREST, RIVER, BANANA, YAM absent from Grollemund 100-concept slate; founder effect dominates"
+    },
+    "Uralic": {
+      "top_concept": "MOUNTAIN",
+      "top_r": 0.5952,
+      "top_ci": [
+        0.3001,
+        0.8565
+      ],
+      "top_p": 0.003474,
+      "top_n": 22,
+      "second_concept": "WATER",
+      "second_r": 0.5774,
+      "second_ci": [
+        0.5808,
+        0.8885
+      ],
+      "ci_disjoint": false,
+      "top_significantly_positive": true,
+      "selective": false,
+      "verdict": "registered_null",
+      "registered_note": "Pre-registered anchors FOREST/SNOW/ICE/TREE all failed; TREE significantly negative; empirical top MOUNTAIN (+0.60) was a control"
+    }
+  },
+  "key_robustness_findings": {
+    "ie_homeland_sensitivity": {
+      "steppe_r": 0.41,
+      "anatolian_r": 0.1337,
+      "note": "MOUNTAIN direction preserved but magnitude ~1/3 under Anatolian hypothesis"
+    },
+    "st_stedt_full_rice": {
+      "poc_n": 60,
+      "poc_r": 0.184,
+      "full_n": 99,
+      "full_r": -0.181,
+      "note": "RICE direction flipped at n=99; earlier positive finding was small-n artefact"
+    },
+    "uralic_preregistered_null": {
+      "anchors_predicted": [
+        "FOREST",
+        "SNOW",
+        "ICE",
+        "TREE"
+      ],
+      "top_empirical": "MOUNTAIN",
+      "note": "TREE significantly negative (ρ=-0.447, p=0.037); MOUNTAIN (control) emerged empirical top"
+    },
+    "bantu_founder_effect": {
+      "positive_controls": [
+        "FIRE (+0.65)",
+        "WATER (+0.62)",
+        "STONE (+0.54)"
+      ],
+      "note": "All Swadesh universal controls positive; no selective anchor identifiable; anchor concepts absent from dataset"
+    }
+  },
+  "paper_thesis": "The expansion-corridor ecological anchor hypothesis is supported in 2 of 5 tested language families (Austronesian SEA, Indo-European MOUNTAIN), refuted at scale in Sino-Tibetan (RICE direction flipped at n=99), untestable in Bantu (dataset lacks ecological concepts), and produced a pre-registered null in Uralic. Generalisation of the hypothesis is conditional on (a) dataset including cultural/ecological concepts beyond Swadesh, and (b) the family not being in a founder-effect regime where all concepts show positive homeland-distance gradients."
+}

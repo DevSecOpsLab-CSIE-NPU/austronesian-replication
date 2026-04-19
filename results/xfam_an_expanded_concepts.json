@@ -1,0 +1,170 @@
+{
+  "family": "Austronesian",
+  "dataset": "ABVD (Lexibank CLDF)",
+  "homeland": {
+    "name": "Taiwan",
+    "lat": 23.5,
+    "lon": 121.0
+  },
+  "n_languages_total": 775,
+  "concepts_found": [
+    "SEA",
+    "STAR",
+    "FISH",
+    "CLOUD",
+    "DOG"
+  ],
+  "concepts_not_found": [
+    {
+      "concept": "CANOE",
+      "aliases_tried": [
+        "CANOE",
+        "canoe",
+        "BOAT"
+      ],
+      "reason": "not present in ABVD 210-concept parameter list"
+    },
+    {
+      "concept": "COCONUT",
+      "aliases_tried": [
+        "COCONUT",
+        "coconut",
+        "COCONUT PALM",
+        "COCONUT TREE",
+        "COCONUT MEAT",
+        "coconut meat",
+        "coconut_meat"
+      ],
+      "reason": "not present in ABVD 210-concept parameter list"
+    },
+    {
+      "concept": "TARO",
+      "aliases_tried": [
+        "TARO",
+        "taro"
+      ],
+      "reason": "not present in ABVD 210-concept parameter list"
+    },
+    {
+      "concept": "BANANA",
+      "aliases_tried": [
+        "BANANA",
+        "banana",
+        "PLANTAIN"
+      ],
+      "reason": "not present in ABVD 210-concept parameter list"
+    },
+    {
+      "concept": "PIG",
+      "aliases_tried": [
+        "PIG",
+        "pig",
+        "BOAR",
+        "swine"
+      ],
+      "reason": "not present in ABVD 210-concept parameter list"
+    },
+    {
+      "concept": "CHICKEN",
+      "aliases_tried": [
+        "CHICKEN",
+        "chicken",
+        "FOWL",
+        "HEN"
+      ],
+      "reason": "not present in ABVD 210-concept parameter list"
+    }
+  ],
+  "concepts": {
+    "SEA": {
+      "role": "anchor_baseline",
+      "parameter_id": "124_sea",
+      "parameter_name": "SEA",
+      "n": 612,
+      "n_retention_1": 303,
+      "retention_rate": 0.4951,
+      "spearman_r": 0.4221,
+      "spearman_p": 7.859172239608101e-28,
+      "ci_lower": 0.3583,
+      "ci_upper": 0.4954,
+      "proto_form_cognate_id": "1"
+    },
+    "STAR": {
+      "role": "anchor_hypothesis",
+      "parameter_id": "130_star",
+      "parameter_name": "STAR",
+      "n": 621,
+      "n_retention_1": 340,
+      "retention_rate": 0.5475,
+      "spearman_r": -0.1722,
+      "spearman_p": 1.5996252316742716e-05,
+      "ci_lower": -0.2517,
+      "ci_upper": -0.1019,
+      "proto_form_cognate_id": "1"
+    },
+    "FISH": {
+      "role": "anchor_hypothesis",
+      "parameter_id": "111_fish",
+      "parameter_name": "FISH",
+      "n": 661,
+      "n_retention_1": 323,
+      "retention_rate": 0.4887,
+      "spearman_r": 0.1724,
+      "spearman_p": 8.318533130372601e-06,
+      "ci_lower": 0.093,
+      "ci_upper": 0.2552,
+      "proto_form_cognate_id": "1"
+    },
+    "CLOUD": {
+      "role": "anchor_hypothesis",
+      "parameter_id": "131_cloud",
+      "parameter_name": "CLOUD",
+      "n": 517,
+      "n_retention_1": 65,
+      "retention_rate": 0.1257,
+      "spearman_r": -0.2084,
+      "spearman_p": 1.7655875135540474e-06,
+      "ci_lower": -0.2842,
+      "ci_upper": -0.1314,
+      "proto_form_cognate_id": "1"
+    },
+    "DOG": {
+      "role": "anchor_hypothesis",
+      "parameter_id": "96_dog",
+      "parameter_name": "DOG",
+      "n": 667,
+      "n_retention_1": 175,
+      "retention_rate": 0.2624,
+      "spearman_r": -0.5198,
+      "spearman_p": 1.9137745470338412e-47,
+      "ci_lower": -0.5669,
+      "ci_upper": -0.4645,
+      "proto_form_cognate_id": "1"
+    }
+  },
+  "comparison_to_JLE_SEA": {
+    "JLE_n": 612,
+    "JLE_r": 0.422,
+    "reproduced_n": 612,
+    "reproduced_r": 0.4221,
+    "match": true
+  },
+  "maritime_package_finding": {
+    "n_concepts_with_positive_r": 1,
+    "n_concepts_with_CI_above_zero": 1,
+    "n_concepts_with_CI_above_zero_and_r_ge_0.3": 0,
+    "n_maritime_candidates_tested": 4,
+    "interpretation": "Mixed: 1/4 maritime-package candidates have CI > 0; 0 reach \u03c1 \u2265 +0.3."
+  },
+  "method": {
+    "loan_exclusion": "none at this stage \u2014 identical to Paper 1 pipeline; cognate-class majority vote absorbs loan-form noise",
+    "dedup": "by Glottocode, majority-vote cognate class",
+    "retention_definition": "cognate class equals global mode for concept",
+    "distance": "haversine km from Taiwan",
+    "bootstrap": {
+      "n": 500,
+      "seed": 42,
+      "method": "percentile"
+    }
+  }
+}

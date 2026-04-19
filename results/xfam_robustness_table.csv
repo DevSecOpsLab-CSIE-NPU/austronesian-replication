@@ -1,0 +1,87 @@
+family,dataset,concept,original_label,fisher_z_label,permutation_label,bayesian_label,all_agree
+Austronesian,ABVD (JLE baseline),ABOVE,borrowing_signature,borrowing_signature,borrowing_signature,borrowing_signature,True
+Austronesian,ABVD (JLE baseline),BELOW,null_untestable,null_untestable,null_untestable,null_untestable,True
+Austronesian,ABVD (JLE baseline),LEFT,founder_effect,founder_effect,founder_effect,founder_effect,True
+Austronesian,ABVD (JLE baseline),RIGHT,borrowing_signature,borrowing_signature,borrowing_signature,borrowing_signature,True
+Austronesian,ABVD (JLE baseline),SEA,selective_anchor,selective_anchor,selective_anchor,selective_anchor,True
+Austronesian,ABVD expanded (maritime package test),CLOUD,borrowing_signature,borrowing_signature,borrowing_signature,borrowing_signature,True
+Austronesian,ABVD expanded (maritime package test),DOG,borrowing_signature,borrowing_signature,borrowing_signature,borrowing_signature,True
+Austronesian,ABVD expanded (maritime package test),FISH,founder_effect,founder_effect,founder_effect,founder_effect,True
+Austronesian,ABVD expanded (maritime package test),SEA,selective_anchor,selective_anchor,selective_anchor,selective_anchor,True
+Austronesian,ABVD expanded (maritime package test),STAR,borrowing_signature,borrowing_signature,borrowing_signature,borrowing_signature,True
+Bantu,Grollemund 2015,FIRE,founder_effect,founder_effect,founder_effect,founder_effect,True
+Bantu,Grollemund 2015,STONE,founder_effect,founder_effect,founder_effect,founder_effect,True
+Bantu,Grollemund 2015,TREE,borrowing_signature,borrowing_signature,borrowing_signature,borrowing_signature,True
+Bantu,Grollemund 2015,WATER,founder_effect,founder_effect,founder_effect,founder_effect,True
+Bantu,Grollemund cultural (IRON/HOUSE/SPEAR),BED,founder_effect,founder_effect,founder_effect,founder_effect,True
+Bantu,Grollemund cultural (IRON/HOUSE/SPEAR),ELEPHANT,borrowing_signature,borrowing_signature,borrowing_signature,borrowing_signature,True
+Bantu,Grollemund cultural (IRON/HOUSE/SPEAR),FIRE,founder_effect,founder_effect,founder_effect,founder_effect,True
+Bantu,Grollemund cultural (IRON/HOUSE/SPEAR),GOAT,founder_effect,founder_effect,founder_effect,founder_effect,True
+Bantu,Grollemund cultural (IRON/HOUSE/SPEAR),HOUSE,founder_effect,founder_effect,founder_effect,founder_effect,True
+Bantu,Grollemund cultural (IRON/HOUSE/SPEAR),IRON,founder_effect,founder_effect,founder_effect,founder_effect,True
+Bantu,Grollemund cultural (IRON/HOUSE/SPEAR),KNIFE,borrowing_signature,borrowing_signature,borrowing_signature,borrowing_signature,True
+Bantu,Grollemund cultural (IRON/HOUSE/SPEAR),ROAD,null_untestable,null_untestable,null_untestable,null_untestable,True
+Bantu,Grollemund cultural (IRON/HOUSE/SPEAR),SALT,founder_effect,founder_effect,founder_effect,founder_effect,True
+Bantu,Grollemund cultural (IRON/HOUSE/SPEAR),SPEAR,borrowing_signature,borrowing_signature,borrowing_signature,borrowing_signature,True
+Bantu,Grollemund cultural (IRON/HOUSE/SPEAR),STONE,founder_effect,founder_effect,founder_effect,founder_effect,True
+Bantu,Grollemund cultural (IRON/HOUSE/SPEAR),TREE,borrowing_signature,borrowing_signature,borrowing_signature,borrowing_signature,True
+Bantu,Grollemund cultural (IRON/HOUSE/SPEAR),VILLAGE,founder_effect,founder_effect,founder_effect,founder_effect,True
+Bantu,Grollemund cultural (IRON/HOUSE/SPEAR),WAR,borrowing_signature,borrowing_signature,borrowing_signature,borrowing_signature,True
+Bantu,Grollemund cultural (IRON/HOUSE/SPEAR),WATER,founder_effect,founder_effect,founder_effect,founder_effect,True
+Indo-European,DIACL (cultural vocabulary),AXLE,ceiling,ceiling,ceiling,ceiling,True
+Indo-European,DIACL (cultural vocabulary),HORSE,null_untestable,null_untestable,null_untestable,null_untestable,True
+Indo-European,DIACL (cultural vocabulary),PLOUGH_N,null_untestable,null_untestable,null_untestable,null_untestable,True
+Indo-European,DIACL (cultural vocabulary),PLOUGH_V,null_untestable,null_untestable,null_untestable,null_untestable,True
+Indo-European,DIACL (cultural vocabulary),WHEEL,founder_effect,founder_effect,founder_effect,founder_effect,True
+Indo-European,DIACL (cultural vocabulary),YOKE,ceiling,ceiling,ceiling,ceiling,True
+Indo-European,IECoR (Steppe),DOG,null_untestable,null_untestable,null_untestable,null_untestable,True
+Indo-European,IECoR (Steppe),FOREST,borrowing_signature,borrowing_signature,borrowing_signature,borrowing_signature,True
+Indo-European,IECoR (Steppe),LEFT,borrowing_signature,borrowing_signature,borrowing_signature,borrowing_signature,True
+Indo-European,IECoR (Steppe),MOUNTAIN,founder_effect,founder_effect,founder_effect,founder_effect,True
+Indo-European,IECoR (Steppe),RIGHT,founder_effect,founder_effect,founder_effect,founder_effect,True
+Indo-European,IECoR (Steppe),RIVER,null_untestable,null_untestable,null_untestable,null_untestable,True
+Indo-European,IECoR (Steppe),SALT,null_untestable,null_untestable,null_untestable,null_untestable,True
+Indo-European,IECoR (Steppe),SEA,null_untestable,null_untestable,null_untestable,null_untestable,True
+Indo-European,IECoR (Steppe),TREE,borrowing_signature,borrowing_signature,borrowing_signature,borrowing_signature,True
+Sino-Tibetan,ST pooled (sagartst+zhangst+peirosst),FIRE,null_untestable,null_untestable,null_untestable,null_untestable,True
+Sino-Tibetan,ST pooled (sagartst+zhangst+peirosst),MOUNTAIN,borrowing_signature,null_untestable,null_untestable,null_untestable,False
+Sino-Tibetan,ST pooled (sagartst+zhangst+peirosst),STONE,null_untestable,null_untestable,null_untestable,null_untestable,True
+Sino-Tibetan,ST pooled (sagartst+zhangst+peirosst),TREE,borrowing_signature,null_untestable,null_untestable,null_untestable,False
+Sino-Tibetan,ST pooled (sagartst+zhangst+peirosst),WATER,founder_effect,founder_effect,founder_effect,founder_effect,True
+Sino-Tibetan,STEDT expanded (MILLET/TEA/HORSE/WHEAT),HORSE,null_untestable,null_untestable,null_untestable,null_untestable,True
+Sino-Tibetan,STEDT expanded (MILLET/TEA/HORSE/WHEAT),MILLET,null_untestable,null_untestable,null_untestable,null_untestable,True
+Sino-Tibetan,STEDT expanded (MILLET/TEA/HORSE/WHEAT),SILKWORM,null_untestable,null_untestable,null_untestable,null_untestable,True
+Sino-Tibetan,STEDT expanded (MILLET/TEA/HORSE/WHEAT),TEA,null_untestable,null_untestable,null_untestable,null_untestable,True
+Sino-Tibetan,STEDT expanded (MILLET/TEA/HORSE/WHEAT),WHEAT,founder_effect,null_untestable,null_untestable,null_untestable,False
+Sino-Tibetan,STEDT full (RICE/SALT/BARLEY/YAK),BARLEY,borrowing_signature,null_untestable,null_untestable,null_untestable,False
+Sino-Tibetan,STEDT full (RICE/SALT/BARLEY/YAK),RICE,null_untestable,null_untestable,null_untestable,null_untestable,True
+Sino-Tibetan,STEDT full (RICE/SALT/BARLEY/YAK),SALT,null_untestable,null_untestable,null_untestable,null_untestable,True
+Sino-Tibetan,STEDT full (RICE/SALT/BARLEY/YAK),YAK,selective_anchor,null_untestable,null_untestable,null_untestable,False
+Sino-Tibetan,sagartst,BARLEY,null_untestable,null_untestable,null_untestable,null_untestable,True
+Sino-Tibetan,sagartst,HORSE,null_untestable,null_untestable,null_untestable,null_untestable,True
+Sino-Tibetan,sagartst,LEFT,null_untestable,null_untestable,null_untestable,null_untestable,True
+Sino-Tibetan,sagartst,MOUNTAIN,null_untestable,null_untestable,null_untestable,null_untestable,True
+Sino-Tibetan,sagartst,RICE,null_untestable,null_untestable,null_untestable,null_untestable,True
+Sino-Tibetan,sagartst,RIGHT,null_untestable,null_untestable,null_untestable,null_untestable,True
+Sino-Tibetan,sagartst,RIVER,null_untestable,null_untestable,null_untestable,null_untestable,True
+Sino-Tibetan,sagartst,SALT,borrowing_signature,borrowing_signature,borrowing_signature,borrowing_signature,True
+Sino-Tibetan,sagartst,SEA,null_untestable,null_untestable,null_untestable,null_untestable,True
+Sino-Tibetan,sagartst,TREE,null_untestable,null_untestable,null_untestable,null_untestable,True
+Turkic,savelyevturkic,COLD,null_untestable,null_untestable,null_untestable,null_untestable,True
+Turkic,savelyevturkic,DOG,null_untestable,null_untestable,null_untestable,null_untestable,True
+Turkic,savelyevturkic,LEFT,null_untestable,null_untestable,null_untestable,null_untestable,True
+Turkic,savelyevturkic,MOUNTAIN OR HILL,null_untestable,null_untestable,null_untestable,null_untestable,True
+Turkic,savelyevturkic,RIGHT,null_untestable,null_untestable,null_untestable,null_untestable,True
+Turkic,savelyevturkic,RIVER,null_untestable,null_untestable,null_untestable,null_untestable,True
+Turkic,savelyevturkic,TREE,null_untestable,borrowing_signature,borrowing_signature,borrowing_signature,False
+Uralic,uralex,COLD,founder_effect,founder_effect,founder_effect,founder_effect,True
+Uralic,uralex,FIRE,null_untestable,null_untestable,null_untestable,null_untestable,True
+Uralic,uralex,FOREST,null_untestable,null_untestable,null_untestable,null_untestable,True
+Uralic,uralex,ICE,ceiling,ceiling,ceiling,ceiling,True
+Uralic,uralex,MOUNTAIN,founder_effect,founder_effect,founder_effect,founder_effect,True
+Uralic,uralex,RIVER,null_untestable,null_untestable,null_untestable,null_untestable,True
+Uralic,uralex,SEA,null_untestable,null_untestable,null_untestable,null_untestable,True
+Uralic,uralex,SNOW,null_untestable,null_untestable,null_untestable,null_untestable,True
+Uralic,uralex,STONE,null_untestable,null_untestable,null_untestable,null_untestable,True
+Uralic,uralex,TREE,borrowing_signature,borrowing_signature,borrowing_signature,borrowing_signature,True
+Uralic,uralex,WATER,null_untestable,null_untestable,null_untestable,null_untestable,True

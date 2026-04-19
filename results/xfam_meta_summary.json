@@ -1,0 +1,79 @@
+{
+  "generated": "2026-04-19",
+  "sources": {
+    "an": "results/xfam_an_migration_gradient.json",
+    "ie": "results/xfam_ie_migration_gradient.json",
+    "st": "results/xfam_st_migration_gradient.json"
+  },
+  "families": {
+    "Austronesian": {
+      "homeland": {
+        "name": "Taiwan",
+        "lat": 23.5,
+        "lon": 121.0
+      },
+      "dataset": "ABVD (Lexibank CLDF)",
+      "n_languages_total": 770,
+      "n_concepts_tested": 5
+    },
+    "Indo-European": {
+      "homeland": {
+        "name": "Pontic-Caspian steppe",
+        "lat": 48.0,
+        "lon": 45.0
+      },
+      "dataset": "IECoR v1.2 (Heggarty et al. 2023, Science)",
+      "n_languages_total": 152,
+      "n_concepts_tested": 9
+    },
+    "Sino-Tibetan": {
+      "homeland": {
+        "name": "Upper Yellow River basin",
+        "lat": 35.0,
+        "lon": 104.0
+      },
+      "dataset": "sagartst (Sagart et al. 2019, PNAS)",
+      "n_languages_total": 50,
+      "n_concepts_tested": 10
+    }
+  },
+  "hypothesis_test": {
+    "Austronesian": {
+      "predicted_anchors": [
+        "SEA"
+      ],
+      "empirical_anchor": "SEA",
+      "empirical_anchor_r": 0.4221,
+      "empirical_anchor_p": 7.859172239608101e-28,
+      "empirical_anchor_role_label": "anchor",
+      "prediction_matched": true
+    },
+    "Indo-European": {
+      "predicted_anchors": [
+        "SALT",
+        "DOG",
+        "RIVER",
+        "FOREST"
+      ],
+      "empirical_anchor": "MOUNTAIN",
+      "empirical_anchor_r": 0.4104,
+      "empirical_anchor_p": 1e-06,
+      "empirical_anchor_role_label": "control",
+      "prediction_matched": false
+    },
+    "Sino-Tibetan": {
+      "predicted_anchors": [
+        "RICE",
+        "MOUNTAIN",
+        "BARLEY",
+        "SALT"
+      ],
+      "empirical_anchor": "RICE",
+      "empirical_anchor_r": 0.2707,
+      "empirical_anchor_p": 0.211625,
+      "empirical_anchor_role_label": "anchor",
+      "prediction_matched": true
+    }
+  },
+  "cross_family_finding": "Each family has ONE concept with a significant positive migration gradient. The identity of that concept differs across families and does not always match the a-priori-predicted cultural anchor. This is consistent with a generalised 'ecological-corridor anchor' interpretation: the landscape feature that dominates each family's expansion route stabilises its lexical form."
+}

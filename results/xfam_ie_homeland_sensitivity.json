@@ -1,0 +1,221 @@
+{
+  "family": "Indo-European",
+  "comparison": "Steppe vs Anatolian homeland",
+  "homelands": {
+    "steppe": {
+      "name": "Pontic-Caspian steppe",
+      "lat": 48.0,
+      "lon": 45.0,
+      "source": "Anthony 2007; Heggarty 2023 consensus"
+    },
+    "anatolian": {
+      "name": "Central Anatolian plateau",
+      "lat": 38.9,
+      "lon": 34.5,
+      "source": "Renfrew 1987; Gray & Atkinson 2003"
+    }
+  },
+  "dataset": "IECoR v1.2 (Heggarty et al. 2023, Science)",
+  "n_languages_total": 152,
+  "concepts": {
+    "RIVER": {
+      "steppe": {
+        "r": -0.062,
+        "p": 0.497848,
+        "ci_lower": -0.2711,
+        "ci_upper": 0.1154,
+        "n": 122
+      },
+      "anatolian": {
+        "r": -0.104,
+        "p": 0.254247,
+        "ci_lower": -0.2668,
+        "ci_upper": 0.0555,
+        "n": 122
+      },
+      "delta_r": -0.042,
+      "sign_preserved": true,
+      "ci_overlap": true,
+      "interpretation": "Robust: sign preserved and 95% CIs overlap (Δρ=-0.042); RIVER gradient is homeland-insensitive."
+    },
+    "FOREST": {
+      "steppe": {
+        "r": -0.3374,
+        "p": 0.000943,
+        "ci_lower": -0.4687,
+        "ci_upper": -0.203,
+        "n": 93
+      },
+      "anatolian": {
+        "r": -0.2642,
+        "p": 0.010501,
+        "ci_lower": -0.3816,
+        "ci_upper": -0.1288,
+        "n": 93
+      },
+      "delta_r": 0.0732,
+      "sign_preserved": true,
+      "ci_overlap": true,
+      "interpretation": "Robust: sign preserved and 95% CIs overlap (Δρ=+0.073); FOREST gradient is homeland-insensitive."
+    },
+    "DOG": {
+      "steppe": {
+        "r": 0.0526,
+        "p": 0.550987,
+        "ci_lower": -0.1279,
+        "ci_upper": 0.2389,
+        "n": 131
+      },
+      "anatolian": {
+        "r": -0.0355,
+        "p": 0.687609,
+        "ci_lower": -0.2174,
+        "ci_upper": 0.1503,
+        "n": 131
+      },
+      "delta_r": -0.0881,
+      "sign_preserved": false,
+      "ci_overlap": true,
+      "interpretation": "Fragile: sign flips under Anatolian homeland (Steppe ρ=+0.053, Anatolian ρ=-0.035, Δρ=-0.088)."
+    },
+    "SALT": {
+      "steppe": {
+        "r": 0.1122,
+        "p": 0.203707,
+        "ci_lower": -0.0518,
+        "ci_upper": 0.2835,
+        "n": 130
+      },
+      "anatolian": {
+        "r": -0.1333,
+        "p": 0.130697,
+        "ci_lower": -0.3076,
+        "ci_upper": 0.0406,
+        "n": 130
+      },
+      "delta_r": -0.2455,
+      "sign_preserved": false,
+      "ci_overlap": true,
+      "interpretation": "Fragile: sign flips under Anatolian homeland (Steppe ρ=+0.112, Anatolian ρ=-0.133, Δρ=-0.245)."
+    },
+    "SEA": {
+      "steppe": {
+        "r": 0.1657,
+        "p": 0.083575,
+        "ci_lower": -0.0285,
+        "ci_upper": 0.3496,
+        "n": 110
+      },
+      "anatolian": {
+        "r": 0.0407,
+        "p": 0.672789,
+        "ci_lower": -0.1509,
+        "ci_upper": 0.236,
+        "n": 110
+      },
+      "delta_r": -0.125,
+      "sign_preserved": true,
+      "ci_overlap": true,
+      "interpretation": "Robust: sign preserved and 95% CIs overlap (Δρ=-0.125); SEA gradient is homeland-insensitive."
+    },
+    "TREE": {
+      "steppe": {
+        "r": -0.4433,
+        "p": 0.0,
+        "ci_lower": -0.578,
+        "ci_upper": -0.2842,
+        "n": 122
+      },
+      "anatolian": {
+        "r": -0.4454,
+        "p": 0.0,
+        "ci_lower": -0.584,
+        "ci_upper": -0.2695,
+        "n": 122
+      },
+      "delta_r": -0.0021,
+      "sign_preserved": true,
+      "ci_overlap": true,
+      "interpretation": "Robust: sign preserved and 95% CIs overlap (Δρ=-0.002); TREE gradient is homeland-insensitive."
+    },
+    "LEFT": {
+      "steppe": {
+        "r": -0.3447,
+        "p": 0.000151,
+        "ci_lower": -0.4635,
+        "ci_upper": -0.2192,
+        "n": 116
+      },
+      "anatolian": {
+        "r": -0.3345,
+        "p": 0.000243,
+        "ci_lower": -0.4458,
+        "ci_upper": -0.215,
+        "n": 116
+      },
+      "delta_r": 0.0102,
+      "sign_preserved": true,
+      "ci_overlap": true,
+      "interpretation": "Robust: sign preserved and 95% CIs overlap (Δρ=+0.010); LEFT gradient is homeland-insensitive."
+    },
+    "RIGHT": {
+      "steppe": {
+        "r": 0.195,
+        "p": 0.020508,
+        "ci_lower": 0.0348,
+        "ci_upper": 0.3623,
+        "n": 141
+      },
+      "anatolian": {
+        "r": 0.0583,
+        "p": 0.492409,
+        "ci_lower": -0.1115,
+        "ci_upper": 0.2231,
+        "n": 141
+      },
+      "delta_r": -0.1367,
+      "sign_preserved": true,
+      "ci_overlap": true,
+      "interpretation": "Robust: sign preserved and 95% CIs overlap (Δρ=-0.137); RIGHT gradient is homeland-insensitive."
+    },
+    "MOUNTAIN": {
+      "steppe": {
+        "r": 0.4104,
+        "p": 1e-06,
+        "ci_lower": 0.2816,
+        "ci_upper": 0.544,
+        "n": 139
+      },
+      "anatolian": {
+        "r": 0.1337,
+        "p": 0.116618,
+        "ci_lower": -0.0009,
+        "ci_upper": 0.2771,
+        "n": 139
+      },
+      "delta_r": -0.2767,
+      "sign_preserved": true,
+      "ci_overlap": false,
+      "interpretation": "Partially robust: sign preserved but CIs do not overlap (Δρ=-0.277); magnitude shifts with homeland."
+    }
+  },
+  "overall_robustness": {
+    "n_concepts_total": 9,
+    "n_concepts_sign_preserved": 7,
+    "n_concepts_ci_overlap": 8,
+    "mountain_verdict": "partially robust",
+    "conclusion": "Of 9 IE concepts, 7 preserve the sign of ρ and 8 have overlapping 95% CIs across the two homeland hypotheses. MOUNTAIN is partially robust to homeland choice (Steppe ρ=+0.410, Anatolian ρ=+0.134, Δρ=-0.277)."
+  },
+  "method": {
+    "dedup": "by Glottocode, majority-vote cognate class",
+    "retention_definition": "cognate class equals global mode for concept",
+    "distance": "haversine km from homeland",
+    "bootstrap": {
+      "n": 500,
+      "seed": 42,
+      "method": "percentile"
+    },
+    "loans_excluded": true,
+    "sanity_check": "Steppe replication matches on-disk result to max |Δρ|=0.00e+00"
+  }
+}

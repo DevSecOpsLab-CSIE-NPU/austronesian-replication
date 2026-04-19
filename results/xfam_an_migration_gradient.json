@@ -1,0 +1,77 @@
+{
+  "family": "Austronesian",
+  "homeland": {
+    "name": "Taiwan",
+    "lat": 23.5,
+    "lon": 121.0
+  },
+  "dataset": "ABVD (Lexibank CLDF)",
+  "n_languages_total": 770,
+  "concepts": {
+    "SEA": {
+      "role": "anchor",
+      "n": 612,
+      "n_retention_1": 303,
+      "retention_rate": 0.4951,
+      "spearman_r": 0.4221,
+      "spearman_p": 7.859172239608101e-28,
+      "ci_lower": 0.3583,
+      "ci_upper": 0.4954,
+      "proto_form_cognate_id": "1"
+    },
+    "LEFT": {
+      "role": "control",
+      "n": 630,
+      "n_retention_1": 256,
+      "retention_rate": 0.4063,
+      "spearman_r": 0.2578,
+      "spearman_p": 5.062950693554082e-11,
+      "ci_lower": 0.1743,
+      "ci_upper": 0.3353,
+      "proto_form_cognate_id": "1"
+    },
+    "RIGHT": {
+      "role": "control",
+      "n": 606,
+      "n_retention_1": 215,
+      "retention_rate": 0.3548,
+      "spearman_r": -0.5849,
+      "spearman_p": 6.855973560558082e-57,
+      "ci_lower": -0.6369,
+      "ci_upper": -0.5325,
+      "proto_form_cognate_id": "1"
+    },
+    "ABOVE": {
+      "role": "control",
+      "n": 351,
+      "n_retention_1": 94,
+      "retention_rate": 0.2678,
+      "spearman_r": -0.2842,
+      "spearman_p": 6.031021363350427e-08,
+      "ci_lower": -0.3769,
+      "ci_upper": -0.1937,
+      "proto_form_cognate_id": "2"
+    },
+    "BELOW": {
+      "role": "control",
+      "n": 360,
+      "n_retention_1": 81,
+      "retention_rate": 0.225,
+      "spearman_r": -0.0994,
+      "spearman_p": 0.059617197441934375,
+      "ci_lower": -0.1919,
+      "ci_upper": 0.0031,
+      "proto_form_cognate_id": "1"
+    }
+  },
+  "method": {
+    "dedup": "by Glottocode, majority-vote cognate class",
+    "retention_definition": "cognate class equals global mode for concept",
+    "distance": "haversine km from homeland",
+    "bootstrap": {
+      "n": 500,
+      "seed": 42,
+      "method": "percentile"
+    }
+  }
+}

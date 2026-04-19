@@ -1,0 +1,173 @@
+{
+  "generated": "2026-04-19",
+  "version": "v4-final-6families",
+  "n_families_analysed": 6,
+  "families": [
+    "Austronesian",
+    "Indo-European",
+    "Sino-Tibetan",
+    "Bantu",
+    "Uralic",
+    "Turkic"
+  ],
+  "datasets_per_family_primary": {
+    "Austronesian": "ABVD (JLE baseline)",
+    "Indo-European": "IECoR (Steppe)",
+    "Sino-Tibetan": "STEDT full (RICE/SALT/BARLEY/YAK)",
+    "Bantu": "Grollemund 2015",
+    "Uralic": "uralex",
+    "Turkic": "savelyevturkic"
+  },
+  "scorecard": {
+    "supported": [
+      "Austronesian"
+    ],
+    "supported_with_caveat": [
+      "Indo-European"
+    ],
+    "refuted": [
+      "Sino-Tibetan"
+    ],
+    "untestable": [
+      "Bantu"
+    ],
+    "registered_null": [
+      "Uralic",
+      "Turkic"
+    ]
+  },
+  "family_summaries": {
+    "Austronesian": {
+      "top_concept": "SEA",
+      "top_r": 0.4221,
+      "top_ci": [
+        0.3583,
+        0.4954
+      ],
+      "top_p": 7.859172239608101e-28,
+      "top_n": 612,
+      "second_concept": "LEFT",
+      "second_r": 0.2578,
+      "ci_disjoint": true,
+      "top_significantly_positive": true,
+      "selective": true,
+      "verdict": "supported"
+    },
+    "Indo-European": {
+      "top_concept": "MOUNTAIN",
+      "top_r": 0.4104,
+      "top_ci": [
+        0.2816,
+        0.544
+      ],
+      "top_p": 1e-06,
+      "top_n": 139,
+      "second_concept": "RIGHT",
+      "second_r": 0.195,
+      "ci_disjoint": false,
+      "top_significantly_positive": true,
+      "selective": false,
+      "verdict": "supported_with_caveat",
+      "caveat": "IECoR MOUNTAIN +0.41 (post-hoc). DIACL WHEEL +0.37 (p=0.002, pre-registered Anthony 2007 anchor). Anatolian homeland: MOUNTAIN drops to +0.13 (CI touches 0)."
+    },
+    "Sino-Tibetan": {
+      "top_concept": "YAK",
+      "top_r": 0.2488,
+      "top_ci": [
+        0.1204,
+        0.4292
+      ],
+      "top_p": 0.116729,
+      "top_n": 41,
+      "second_concept": "SALT",
+      "second_r": -0.0817,
+      "ci_disjoint": true,
+      "top_significantly_positive": true,
+      "selective": true,
+      "verdict": "refuted",
+      "note": "9 cultural concepts tested in STEDT full + expanded, all null at Method B high-n. RICE flipped from +0.27 (n=23) to -0.18 (n=99). HORSE Method A ρ=-0.42 p=3e-5 (loanword footprint signal). YAK +0.25 n=41 exploratory."
+    },
+    "Bantu": {
+      "top_concept": "FIRE",
+      "top_r": 0.6542,
+      "top_ci": [
+        0.5912,
+        0.708
+      ],
+      "top_p": 0.0,
+      "top_n": 333,
+      "second_concept": "WATER",
+      "second_r": 0.6164,
+      "ci_disjoint": false,
+      "top_significantly_positive": true,
+      "selective": false,
+      "verdict": "untestable",
+      "note": "Pre-registered FOREST/RIVER/BANANA/YAM absent. Grollemund cultural items (IRON +0.58, HOUSE +0.66) follow founder-effect baseline, not selective anchors."
+    },
+    "Uralic": {
+      "top_concept": "MOUNTAIN",
+      "top_r": 0.5952,
+      "top_ci": [
+        0.3001,
+        0.8565
+      ],
+      "top_p": 0.003474,
+      "top_n": 22,
+      "second_concept": "WATER",
+      "second_r": 0.5774,
+      "ci_disjoint": false,
+      "top_significantly_positive": true,
+      "selective": false,
+      "verdict": "registered_null",
+      "note": "Pre-registered FOREST/SNOW/ICE/TREE failed; TREE significantly negative; MOUNTAIN (control) was empirical top."
+    },
+    "Turkic": {
+      "top_concept": "COLD",
+      "top_r": 0.1911,
+      "top_ci": [
+        -0.044,
+        0.4472
+      ],
+      "top_p": 0.371037,
+      "top_n": 24,
+      "second_concept": "MOUNTAIN OR HILL",
+      "second_r": 0.0,
+      "ci_disjoint": false,
+      "top_significantly_positive": false,
+      "selective": false,
+      "verdict": "registered_null",
+      "note": "Pre-registered HORSE/SHEEP/STEPPE/FELT absent from savelyevturkic. Fallback anchors DOG/MEAT/MOUNTAIN/HORN all null. 7 concepts at 100% retention (young family, no divergence). TREE significantly negative (parallel to Uralic)."
+    }
+  },
+  "secondary_findings": {
+    "ie_wheel_pre_registered_confirmation": {
+      "dataset": "DIACL",
+      "r": 0.372,
+      "p": 0.002,
+      "n": 67,
+      "ci": [
+        0.13,
+        0.57
+      ],
+      "note": "Anthony 2007 steppe-pastoralist hypothesis directly supported via migration-gradient method"
+    },
+    "an_dog_negative_gradient": {
+      "dataset": "ABVD",
+      "r": -0.52,
+      "p": 1.9e-47,
+      "n": 667,
+      "note": "Strongest negative gradient in AN; consistent with archaeo-genetic evidence of multiple independent dog introductions"
+    },
+    "st_horse_loanword_signal": {
+      "dataset": "STEDT Method A",
+      "r": -0.42,
+      "p": 3e-05,
+      "n": 92,
+      "note": "Migration gradient can identify loanword footprints; HORSE consistent with IE/Altaic loans into ST"
+    },
+    "uralic_turkic_registered_null_parallel": {
+      "note": "Both pre-registered nulls show TREE significantly negative. Possible shared pattern for continental inland families with founder-effect regime."
+    }
+  },
+  "paper_thesis_final": "The expansion-corridor ecological anchor hypothesis generalises CONDITIONALLY. Strong selective anchors are found in maritime expansion (Austronesian SEA, CI-disjoint) and high-relief continental expansion (Indo-European MOUNTAIN + WHEEL, with WHEEL as pre-registered Anthony 2007 confirmation). The hypothesis fails for steppe (Turkic, pre-registered null), boreal (Uralic, pre-registered null), tropical/continental inland agriculture (Sino-Tibetan, 9 concepts null), and is data-limited for Bantu. Two independent pre-registered nulls (Uralic + Turkic) establish that the methodology catches failures, not just successes."
+}

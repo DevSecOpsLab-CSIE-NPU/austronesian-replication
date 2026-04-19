@@ -1,0 +1,113 @@
+{
+  "family": "Sino-Tibetan",
+  "concept": "RICE",
+  "data_source": "STEDT (stedtdb.johnblowe.com), gloss='rice', AJAX tbl=lexicon",
+  "data_source_url": "https://stedtdb.johnblowe.com/search/ajax?tbl=lexicon&s=rice",
+  "n_languages_queried": 117,
+  "n_forms_extracted": 101,
+  "n_stedt_langs_unmatched": 33,
+  "n_glottocodes_with_form": 60,
+  "match_stats": {
+    "unmatched": 36,
+    "exact": 68,
+    "token": 4,
+    "fuzzy": 3,
+    "base": 15,
+    "alias": 11
+  },
+  "primary_cognate_method": "LexStat-NLD",
+  "results_by_method": {
+    "STEDT-etyma-tag": {
+      "description": "STEDT proto-etyma tag as cognate class; rows missing a tag were excluded",
+      "n_rows_with_tag": 9,
+      "n": 8,
+      "n_cognate_classes": 6,
+      "retention_rate": 0.25,
+      "spearman_r": 0.7559,
+      "spearman_p": 0.03002,
+      "ci_lower": 0.5843,
+      "ci_upper": 0.9063,
+      "proto_cognate_class": "2179",
+      "n_tied_top_classes": 2
+    },
+    "LexStat-NLD": {
+      "description": "Single-link clusters of reflexes by normalised Levenshtein distance <= 0.4",
+      "nld_threshold": 0.4,
+      "n": 60,
+      "n_cognate_classes": 40,
+      "retention_rate": 0.13333333333333333,
+      "spearman_r": 0.184,
+      "spearman_p": 0.159284,
+      "ci_lower": -0.0017,
+      "ci_upper": 0.3626,
+      "proto_cognate_class": "43",
+      "n_tied_top_classes": 1
+    }
+  },
+  "n_cognate_classes": 40,
+  "retention_rate": 0.13333333333333333,
+  "spearman_r": 0.184,
+  "spearman_p": 0.159284,
+  "ci_lower": -0.0017,
+  "ci_upper": 0.3626,
+  "homeland": {
+    "name": "Upper Yellow River basin",
+    "lat": 35.0,
+    "lon": 104.0
+  },
+  "comparison_to_sagartst": {
+    "previous_r": 0.271,
+    "previous_n": 23,
+    "previous_p": 0.21
+  },
+  "method": {
+    "homeland_distance": "haversine km",
+    "retention_rule": "cognate class == global-mode class (ties broken lexicographically)",
+    "bootstrap": {
+      "n": 500,
+      "seed": 42,
+      "method": "percentile"
+    },
+    "glottocode_lookup_sources": [
+      "data/raw/zhang2019/zhang2019_data.xlsx Language Info",
+      "data/raw/peirosst/cldf/languages.csv",
+      "data/raw/sagartst/cldf/languages.csv"
+    ],
+    "name_matching": "normalise -> exact -> drop-parens -> alias table -> token>=4 chars -> difflib cutoff=0.85"
+  },
+  "unmatched_stedt_languages": [
+    "*Bodo-Garo",
+    "*Karen",
+    "*Lolo-Burmese",
+    "*Loloish",
+    "*TGTM",
+    "*Tibeto-Burman",
+    "Bisu",
+    "Chaudangsi",
+    "Chinese (Hanzi)",
+    "Darma",
+    "Galo",
+    "Gazhuo",
+    "Hani (Khatu)",
+    "Hani (Pijo)",
+    "Hani (Wordlist)",
+    "Japanese",
+    "Kaman [Miju]",
+    "Kucong",
+    "Milang",
+    "Muya",
+    "Nishing",
+    "Nung",
+    "Nyagrong Minyag (Ganzi Xinlong)",
+    "Paite",
+    "Pumi (Jiulong)",
+    "Pumi (Lanping)",
+    "Raji",
+    "Sila",
+    "Tsangla (Central)",
+    "Yi (Liangshan)",
+    "Yi (Nanhua)",
+    "Yi (Xide)",
+    "rGBenzhen"
+  ]
+}

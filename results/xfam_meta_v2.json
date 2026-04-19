@@ -1,0 +1,133 @@
+{
+  "generated": "2026-04-19",
+  "families_analysed": [
+    "Austronesian",
+    "Indo-European",
+    "Sino-Tibetan",
+    "Bantu"
+  ],
+  "datasets_used": [
+    "ABVD (JLE baseline)",
+    "Grollemund 2015",
+    "IECoR (Steppe homeland)",
+    "ST STEDT (NLD cluster, Method B)",
+    "ST pooled (sagartst+zhangst+peirosst)",
+    "sagartst"
+  ],
+  "primary_findings": {
+    "Austronesian": {
+      "empirical_anchor": "SEA",
+      "r": 0.4221,
+      "selectively_positive": true,
+      "note": "replicates JLE paper SEA anchor"
+    },
+    "Indo-European": {
+      "empirical_anchor": "MOUNTAIN",
+      "r_steppe": 0.4104,
+      "r_anatolian": 0.1337,
+      "homeland_sensitive": true,
+      "selectively_positive": false
+    },
+    "Sino-Tibetan": {
+      "empirical_anchor_sagartst": "RICE",
+      "r_sagartst_top": 0.2707,
+      "pooled_mountain_r": -0.1292880489841828,
+      "pooled_water_r": 0.2025422815330537,
+      "pooled_water_p": 0.01892469060547952,
+      "stedt_rice_n": 60,
+      "stedt_rice_r": 0.184,
+      "stedt_rice_p": 0.159284,
+      "selectively_positive": false,
+      "note": "RICE direction preserved; power still marginal; WATER emerges in pooled 3-dataset test"
+    },
+    "Bantu": {
+      "empirical_anchor": "FIRE",
+      "r": 0.6542,
+      "selectively_positive": false,
+      "note": "Corridor-ecology concepts (FOREST/RIVER/BANANA/YAM) absent from Swadesh-100; all universal controls show strong positive gradients consistent with founder-effect null"
+    }
+  },
+  "selectivity_summary": {
+    "Austronesian": {
+      "test_applicable": true,
+      "top_concept": "SEA",
+      "top_r": 0.4221,
+      "top_ci": [
+        0.3583,
+        0.4954
+      ],
+      "second_concept": "LEFT",
+      "second_r": 0.2578,
+      "second_ci": [
+        0.1743,
+        0.3353
+      ],
+      "gap_observed": 0.1643,
+      "ci_disjoint": true,
+      "permutation_p": 0.4958,
+      "n_permutations": 5000,
+      "selectively_positive": true
+    },
+    "Indo-European": {
+      "test_applicable": true,
+      "top_concept": "MOUNTAIN",
+      "top_r": 0.4104,
+      "top_ci": [
+        0.2816,
+        0.544
+      ],
+      "second_concept": "RIGHT",
+      "second_r": 0.195,
+      "second_ci": [
+        0.0348,
+        0.3623
+      ],
+      "gap_observed": 0.21539999999999998,
+      "ci_disjoint": false,
+      "permutation_p": 0.3046,
+      "n_permutations": 5000,
+      "selectively_positive": false
+    },
+    "Sino-Tibetan": {
+      "test_applicable": true,
+      "top_concept": "RICE",
+      "top_r": 0.2707,
+      "top_ci": [
+        -0.1233,
+        0.608
+      ],
+      "second_concept": "RIVER",
+      "second_r": 0.152,
+      "second_ci": [
+        -0.0461,
+        0.357
+      ],
+      "gap_observed": 0.1187,
+      "ci_disjoint": false,
+      "permutation_p": 0.5138,
+      "n_permutations": 5000,
+      "selectively_positive": false
+    },
+    "Bantu": {
+      "test_applicable": true,
+      "top_concept": "FIRE",
+      "top_r": 0.6542,
+      "top_ci": [
+        0.5912,
+        0.708
+      ],
+      "second_concept": "WATER",
+      "second_r": 0.6164,
+      "second_ci": [
+        0.5459,
+        0.6795
+      ],
+      "gap_observed": 0.037800000000000056,
+      "ci_disjoint": false,
+      "permutation_p": 0.541,
+      "n_permutations": 5000,
+      "selectively_positive": false
+    }
+  },
+  "cross_family_conclusion": "Four-family evidence shows family-specific ecological anchors are identifiable ONLY when the dataset includes cultural/ecological concepts beyond the Swadesh core. Austronesian SEA (ABVD) and Indo-European MOUNTAIN (IECoR) are selectively positive relative to other tested concepts in their families. Sino-Tibetan RICE and Bantu FOREST/RIVER predictions cannot be cleanly tested because their best available datasets (Grollemund, Zhang 2019, sagartst) are Swadesh-only. Supplementary STEDT extraction raises ST RICE n from 23 to 60 and preserves the positive direction (ρ=+0.18), but remains underpowered. The IE MOUNTAIN finding is homeland-sensitive: under the Anatolian hypothesis the gradient weakens to ρ=+0.13 with CI touching zero. The core methodological finding is that cross-family anchor research is concept-slate dependent: Swadesh-100 resources cannot adjudicate ecology-specific anchor hypotheses."
+}

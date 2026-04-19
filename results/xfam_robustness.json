@@ -1,0 +1,948 @@
+{
+  "methods_compared": [
+    "ci_disjoint_primary",
+    "fisher_z_ci",
+    "permutation",
+    "bayesian_bootstrap"
+  ],
+  "n_comparisons": 86,
+  "bonferroni_m": 86,
+  "rng_seed": 42,
+  "agreement_pairwise": {
+    "ci_disjoint_vs_fisher_z": 0.9302325581395349,
+    "ci_disjoint_vs_permutation": 0.9302325581395349,
+    "ci_disjoint_vs_bayesian": 0.9302325581395349,
+    "all_four_agree": 0.9302325581395349
+  },
+  "per_concept": [
+    {
+      "family": "Austronesian",
+      "dataset": "ABVD (JLE baseline)",
+      "concept": "ABOVE",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "borrowing_signature",
+      "permutation_label": "borrowing_signature",
+      "bayesian_label": "borrowing_signature",
+      "all_agree": true
+    },
+    {
+      "family": "Austronesian",
+      "dataset": "ABVD (JLE baseline)",
+      "concept": "BELOW",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Austronesian",
+      "dataset": "ABVD (JLE baseline)",
+      "concept": "LEFT",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Austronesian",
+      "dataset": "ABVD (JLE baseline)",
+      "concept": "RIGHT",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "borrowing_signature",
+      "permutation_label": "borrowing_signature",
+      "bayesian_label": "borrowing_signature",
+      "all_agree": true
+    },
+    {
+      "family": "Austronesian",
+      "dataset": "ABVD (JLE baseline)",
+      "concept": "SEA",
+      "original_label": "selective_anchor",
+      "fisher_z_label": "selective_anchor",
+      "permutation_label": "selective_anchor",
+      "bayesian_label": "selective_anchor",
+      "all_agree": true
+    },
+    {
+      "family": "Austronesian",
+      "dataset": "ABVD expanded (maritime package test)",
+      "concept": "CLOUD",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "borrowing_signature",
+      "permutation_label": "borrowing_signature",
+      "bayesian_label": "borrowing_signature",
+      "all_agree": true
+    },
+    {
+      "family": "Austronesian",
+      "dataset": "ABVD expanded (maritime package test)",
+      "concept": "DOG",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "borrowing_signature",
+      "permutation_label": "borrowing_signature",
+      "bayesian_label": "borrowing_signature",
+      "all_agree": true
+    },
+    {
+      "family": "Austronesian",
+      "dataset": "ABVD expanded (maritime package test)",
+      "concept": "FISH",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Austronesian",
+      "dataset": "ABVD expanded (maritime package test)",
+      "concept": "SEA",
+      "original_label": "selective_anchor",
+      "fisher_z_label": "selective_anchor",
+      "permutation_label": "selective_anchor",
+      "bayesian_label": "selective_anchor",
+      "all_agree": true
+    },
+    {
+      "family": "Austronesian",
+      "dataset": "ABVD expanded (maritime package test)",
+      "concept": "STAR",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "borrowing_signature",
+      "permutation_label": "borrowing_signature",
+      "bayesian_label": "borrowing_signature",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund 2015",
+      "concept": "FIRE",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund 2015",
+      "concept": "STONE",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund 2015",
+      "concept": "TREE",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "borrowing_signature",
+      "permutation_label": "borrowing_signature",
+      "bayesian_label": "borrowing_signature",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund 2015",
+      "concept": "WATER",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund cultural (IRON/HOUSE/SPEAR)",
+      "concept": "BED",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund cultural (IRON/HOUSE/SPEAR)",
+      "concept": "ELEPHANT",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "borrowing_signature",
+      "permutation_label": "borrowing_signature",
+      "bayesian_label": "borrowing_signature",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund cultural (IRON/HOUSE/SPEAR)",
+      "concept": "FIRE",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund cultural (IRON/HOUSE/SPEAR)",
+      "concept": "GOAT",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund cultural (IRON/HOUSE/SPEAR)",
+      "concept": "HOUSE",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund cultural (IRON/HOUSE/SPEAR)",
+      "concept": "IRON",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund cultural (IRON/HOUSE/SPEAR)",
+      "concept": "KNIFE",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "borrowing_signature",
+      "permutation_label": "borrowing_signature",
+      "bayesian_label": "borrowing_signature",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund cultural (IRON/HOUSE/SPEAR)",
+      "concept": "ROAD",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund cultural (IRON/HOUSE/SPEAR)",
+      "concept": "SALT",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund cultural (IRON/HOUSE/SPEAR)",
+      "concept": "SPEAR",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "borrowing_signature",
+      "permutation_label": "borrowing_signature",
+      "bayesian_label": "borrowing_signature",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund cultural (IRON/HOUSE/SPEAR)",
+      "concept": "STONE",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund cultural (IRON/HOUSE/SPEAR)",
+      "concept": "TREE",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "borrowing_signature",
+      "permutation_label": "borrowing_signature",
+      "bayesian_label": "borrowing_signature",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund cultural (IRON/HOUSE/SPEAR)",
+      "concept": "VILLAGE",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund cultural (IRON/HOUSE/SPEAR)",
+      "concept": "WAR",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "borrowing_signature",
+      "permutation_label": "borrowing_signature",
+      "bayesian_label": "borrowing_signature",
+      "all_agree": true
+    },
+    {
+      "family": "Bantu",
+      "dataset": "Grollemund cultural (IRON/HOUSE/SPEAR)",
+      "concept": "WATER",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Indo-European",
+      "dataset": "DIACL (cultural vocabulary)",
+      "concept": "AXLE",
+      "original_label": "ceiling",
+      "fisher_z_label": "ceiling",
+      "permutation_label": "ceiling",
+      "bayesian_label": "ceiling",
+      "all_agree": true
+    },
+    {
+      "family": "Indo-European",
+      "dataset": "DIACL (cultural vocabulary)",
+      "concept": "HORSE",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Indo-European",
+      "dataset": "DIACL (cultural vocabulary)",
+      "concept": "PLOUGH_N",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Indo-European",
+      "dataset": "DIACL (cultural vocabulary)",
+      "concept": "PLOUGH_V",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Indo-European",
+      "dataset": "DIACL (cultural vocabulary)",
+      "concept": "WHEEL",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Indo-European",
+      "dataset": "DIACL (cultural vocabulary)",
+      "concept": "YOKE",
+      "original_label": "ceiling",
+      "fisher_z_label": "ceiling",
+      "permutation_label": "ceiling",
+      "bayesian_label": "ceiling",
+      "all_agree": true
+    },
+    {
+      "family": "Indo-European",
+      "dataset": "IECoR (Steppe)",
+      "concept": "DOG",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Indo-European",
+      "dataset": "IECoR (Steppe)",
+      "concept": "FOREST",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "borrowing_signature",
+      "permutation_label": "borrowing_signature",
+      "bayesian_label": "borrowing_signature",
+      "all_agree": true
+    },
+    {
+      "family": "Indo-European",
+      "dataset": "IECoR (Steppe)",
+      "concept": "LEFT",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "borrowing_signature",
+      "permutation_label": "borrowing_signature",
+      "bayesian_label": "borrowing_signature",
+      "all_agree": true
+    },
+    {
+      "family": "Indo-European",
+      "dataset": "IECoR (Steppe)",
+      "concept": "MOUNTAIN",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Indo-European",
+      "dataset": "IECoR (Steppe)",
+      "concept": "RIGHT",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Indo-European",
+      "dataset": "IECoR (Steppe)",
+      "concept": "RIVER",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Indo-European",
+      "dataset": "IECoR (Steppe)",
+      "concept": "SALT",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Indo-European",
+      "dataset": "IECoR (Steppe)",
+      "concept": "SEA",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Indo-European",
+      "dataset": "IECoR (Steppe)",
+      "concept": "TREE",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "borrowing_signature",
+      "permutation_label": "borrowing_signature",
+      "bayesian_label": "borrowing_signature",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "ST pooled (sagartst+zhangst+peirosst)",
+      "concept": "FIRE",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "ST pooled (sagartst+zhangst+peirosst)",
+      "concept": "MOUNTAIN",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": false
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "ST pooled (sagartst+zhangst+peirosst)",
+      "concept": "STONE",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "ST pooled (sagartst+zhangst+peirosst)",
+      "concept": "TREE",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": false
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "ST pooled (sagartst+zhangst+peirosst)",
+      "concept": "WATER",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "STEDT expanded (MILLET/TEA/HORSE/WHEAT)",
+      "concept": "HORSE",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "STEDT expanded (MILLET/TEA/HORSE/WHEAT)",
+      "concept": "MILLET",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "STEDT expanded (MILLET/TEA/HORSE/WHEAT)",
+      "concept": "SILKWORM",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "STEDT expanded (MILLET/TEA/HORSE/WHEAT)",
+      "concept": "TEA",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "STEDT expanded (MILLET/TEA/HORSE/WHEAT)",
+      "concept": "WHEAT",
+      "original_label": "founder_effect",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": false
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "STEDT full (RICE/SALT/BARLEY/YAK)",
+      "concept": "BARLEY",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": false
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "STEDT full (RICE/SALT/BARLEY/YAK)",
+      "concept": "RICE",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "STEDT full (RICE/SALT/BARLEY/YAK)",
+      "concept": "SALT",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "STEDT full (RICE/SALT/BARLEY/YAK)",
+      "concept": "YAK",
+      "original_label": "selective_anchor",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": false
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "sagartst",
+      "concept": "BARLEY",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "sagartst",
+      "concept": "HORSE",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "sagartst",
+      "concept": "LEFT",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "sagartst",
+      "concept": "MOUNTAIN",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "sagartst",
+      "concept": "RICE",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "sagartst",
+      "concept": "RIGHT",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "sagartst",
+      "concept": "RIVER",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "sagartst",
+      "concept": "SALT",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "borrowing_signature",
+      "permutation_label": "borrowing_signature",
+      "bayesian_label": "borrowing_signature",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "sagartst",
+      "concept": "SEA",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "sagartst",
+      "concept": "TREE",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Turkic",
+      "dataset": "savelyevturkic",
+      "concept": "COLD",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Turkic",
+      "dataset": "savelyevturkic",
+      "concept": "DOG",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Turkic",
+      "dataset": "savelyevturkic",
+      "concept": "LEFT",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Turkic",
+      "dataset": "savelyevturkic",
+      "concept": "MOUNTAIN OR HILL",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Turkic",
+      "dataset": "savelyevturkic",
+      "concept": "RIGHT",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Turkic",
+      "dataset": "savelyevturkic",
+      "concept": "RIVER",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Turkic",
+      "dataset": "savelyevturkic",
+      "concept": "TREE",
+      "original_label": "null_untestable",
+      "fisher_z_label": "borrowing_signature",
+      "permutation_label": "borrowing_signature",
+      "bayesian_label": "borrowing_signature",
+      "all_agree": false
+    },
+    {
+      "family": "Uralic",
+      "dataset": "uralex",
+      "concept": "COLD",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Uralic",
+      "dataset": "uralex",
+      "concept": "FIRE",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Uralic",
+      "dataset": "uralex",
+      "concept": "FOREST",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Uralic",
+      "dataset": "uralex",
+      "concept": "ICE",
+      "original_label": "ceiling",
+      "fisher_z_label": "ceiling",
+      "permutation_label": "ceiling",
+      "bayesian_label": "ceiling",
+      "all_agree": true
+    },
+    {
+      "family": "Uralic",
+      "dataset": "uralex",
+      "concept": "MOUNTAIN",
+      "original_label": "founder_effect",
+      "fisher_z_label": "founder_effect",
+      "permutation_label": "founder_effect",
+      "bayesian_label": "founder_effect",
+      "all_agree": true
+    },
+    {
+      "family": "Uralic",
+      "dataset": "uralex",
+      "concept": "RIVER",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Uralic",
+      "dataset": "uralex",
+      "concept": "SEA",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Uralic",
+      "dataset": "uralex",
+      "concept": "SNOW",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Uralic",
+      "dataset": "uralex",
+      "concept": "STONE",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    },
+    {
+      "family": "Uralic",
+      "dataset": "uralex",
+      "concept": "TREE",
+      "original_label": "borrowing_signature",
+      "fisher_z_label": "borrowing_signature",
+      "permutation_label": "borrowing_signature",
+      "bayesian_label": "borrowing_signature",
+      "all_agree": true
+    },
+    {
+      "family": "Uralic",
+      "dataset": "uralex",
+      "concept": "WATER",
+      "original_label": "null_untestable",
+      "fisher_z_label": "null_untestable",
+      "permutation_label": "null_untestable",
+      "bayesian_label": "null_untestable",
+      "all_agree": true
+    }
+  ],
+  "disagreements": [
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "ST pooled (sagartst+zhangst+peirosst)",
+      "concept": "MOUNTAIN",
+      "labels": {
+        "ci_disjoint_primary": "borrowing_signature",
+        "fisher_z_ci": "null_untestable",
+        "permutation": "null_untestable",
+        "bayesian_bootstrap": "null_untestable"
+      }
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "ST pooled (sagartst+zhangst+peirosst)",
+      "concept": "TREE",
+      "labels": {
+        "ci_disjoint_primary": "borrowing_signature",
+        "fisher_z_ci": "null_untestable",
+        "permutation": "null_untestable",
+        "bayesian_bootstrap": "null_untestable"
+      }
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "STEDT expanded (MILLET/TEA/HORSE/WHEAT)",
+      "concept": "WHEAT",
+      "labels": {
+        "ci_disjoint_primary": "founder_effect",
+        "fisher_z_ci": "null_untestable",
+        "permutation": "null_untestable",
+        "bayesian_bootstrap": "null_untestable"
+      }
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "STEDT full (RICE/SALT/BARLEY/YAK)",
+      "concept": "BARLEY",
+      "labels": {
+        "ci_disjoint_primary": "borrowing_signature",
+        "fisher_z_ci": "null_untestable",
+        "permutation": "null_untestable",
+        "bayesian_bootstrap": "null_untestable"
+      }
+    },
+    {
+      "family": "Sino-Tibetan",
+      "dataset": "STEDT full (RICE/SALT/BARLEY/YAK)",
+      "concept": "YAK",
+      "labels": {
+        "ci_disjoint_primary": "selective_anchor",
+        "fisher_z_ci": "null_untestable",
+        "permutation": "null_untestable",
+        "bayesian_bootstrap": "null_untestable"
+      }
+    },
+    {
+      "family": "Turkic",
+      "dataset": "savelyevturkic",
+      "concept": "TREE",
+      "labels": {
+        "ci_disjoint_primary": "null_untestable",
+        "fisher_z_ci": "borrowing_signature",
+        "permutation": "borrowing_signature",
+        "bayesian_bootstrap": "borrowing_signature"
+      }
+    }
+  ],
+  "headline_stat": "93.0% of (family, concept) pairs receive identical labels across four methods"
+}

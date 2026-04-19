@@ -1,0 +1,121 @@
+{
+  "family": "Indo-European",
+  "homeland": {
+    "name": "Pontic-Caspian steppe",
+    "lat": 48.0,
+    "lon": 45.0
+  },
+  "dataset": "DIACL CLDF (lexibank/diacl, derived from Carling 2017)",
+  "cognacy_source": "raw/etymology.json.gz parent->child lexeme tree; cognate classes reconstructed by walking each lexeme to its root within the etymology entry that references it.",
+  "n_ie_languages_in_dataset": 161,
+  "concepts": {
+    "HORSE": {
+      "role": "cultural_anchor",
+      "parameter_id": "38_horse",
+      "diacl_meaning": "38_horse",
+      "n": 67,
+      "n_retention_1": 26,
+      "n_cognate_classes": 19,
+      "retention_rate": 0.3881,
+      "spearman_r": 0.1782,
+      "spearman_p": 0.149151,
+      "ci_lower": -0.0684,
+      "ci_upper": 0.4224,
+      "proto_form_cognate_id": "3040:56092",
+      "n_bootstrap_usable": 500,
+      "notes": ""
+    },
+    "WHEEL": {
+      "role": "cultural_anchor",
+      "parameter_id": "14_wheel",
+      "diacl_meaning": "14_wheel",
+      "n": 67,
+      "n_retention_1": 30,
+      "n_cognate_classes": 13,
+      "retention_rate": 0.4478,
+      "spearman_r": 0.3725,
+      "spearman_p": 0.001908,
+      "ci_lower": 0.1342,
+      "ci_upper": 0.5716,
+      "proto_form_cognate_id": "3088:80116",
+      "n_bootstrap_usable": 500,
+      "notes": ""
+    },
+    "YOKE": {
+      "role": "cultural_anchor",
+      "parameter_id": "15_yoke",
+      "diacl_meaning": "15_yoke",
+      "n": 59,
+      "n_retention_1": 56,
+      "n_cognate_classes": 7,
+      "retention_rate": 0.9492,
+      "spearman_r": 0.145,
+      "spearman_p": 0.273273,
+      "ci_lower": -0.0936,
+      "ci_upper": 0.3631,
+      "proto_form_cognate_id": "3096:79367",
+      "n_bootstrap_usable": 475,
+      "notes": ""
+    },
+    "PLOUGH_V": {
+      "role": "cultural_anchor",
+      "parameter_id": "1_toplough",
+      "diacl_meaning": "1_toplough",
+      "n": 60,
+      "n_retention_1": 30,
+      "n_cognate_classes": 13,
+      "retention_rate": 0.5,
+      "spearman_r": -0.1819,
+      "spearman_p": 0.164246,
+      "ci_lower": -0.4209,
+      "ci_upper": 0.0773,
+      "proto_form_cognate_id": "3061:72491",
+      "n_bootstrap_usable": 500,
+      "notes": ""
+    },
+    "PLOUGH_N": {
+      "role": "cultural_anchor",
+      "parameter_id": "8_plough",
+      "diacl_meaning": "8_plough",
+      "n": 66,
+      "n_retention_1": 35,
+      "n_cognate_classes": 14,
+      "retention_rate": 0.5303,
+      "spearman_r": 0.1865,
+      "spearman_p": 0.13387,
+      "ci_lower": -0.0484,
+      "ci_upper": 0.4033,
+      "proto_form_cognate_id": "3060:72491",
+      "n_bootstrap_usable": 500,
+      "notes": ""
+    },
+    "AXLE": {
+      "role": "cultural_anchor",
+      "parameter_id": "7_axle",
+      "diacl_meaning": "7_axle",
+      "n": 54,
+      "n_retention_1": 49,
+      "n_cognate_classes": 9,
+      "retention_rate": 0.9074,
+      "spearman_r": -0.0594,
+      "spearman_p": 0.669432,
+      "ci_lower": -0.2905,
+      "ci_upper": 0.1754,
+      "proto_form_cognate_id": "3006:80380",
+      "n_bootstrap_usable": 496,
+      "notes": ""
+    }
+  },
+  "method": {
+    "dedup": "by Glottocode, majority-vote cognate class",
+    "retention_definition": "cognate class equals global mode for concept",
+    "distance": "haversine km from homeland",
+    "bootstrap": {
+      "n": 500,
+      "seed": 42,
+      "method": "percentile"
+    },
+    "loans_excluded": false,
+    "loans_note": "DIACL forms.csv Loan column is empty; loan flags are not available in the CLDF derivation. Reported values therefore include any loan-influenced forms."
+  }
+}

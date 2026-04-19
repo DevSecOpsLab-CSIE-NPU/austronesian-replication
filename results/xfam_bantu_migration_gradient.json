@@ -1,0 +1,98 @@
+{
+  "family": "Bantu",
+  "homeland": {
+    "name": "Grassfields (Cameroon/Nigeria border)",
+    "lat": 6.0,
+    "lon": 11.0
+  },
+  "dataset": "grollemundbantu (Grollemund et al. 2015, PNAS; lexibank CLDF)",
+  "n_languages_total": 424,
+  "concept_availability": {
+    "FOREST": false,
+    "RIVER": false,
+    "BANANA": false,
+    "YAM": false,
+    "MOUNTAIN": false,
+    "SEA": false,
+    "TREE": true,
+    "FIRE": true,
+    "WATER": true,
+    "STONE": true,
+    "LEFT": false,
+    "RIGHT": false
+  },
+  "concepts": {
+    "TREE": {
+      "role": "control",
+      "param_id": "tree",
+      "n": 331,
+      "n_retention_1": 240,
+      "retention_rate": 0.7251,
+      "spearman_r": -0.1312,
+      "spearman_p": 0.016907,
+      "ci_lower": -0.2415,
+      "ci_upper": -0.0209,
+      "proto_form_cognate_id": "tree-1",
+      "n_loans_excluded": 0,
+      "n_bootstrap_usable": 500
+    },
+    "FIRE": {
+      "role": "control",
+      "param_id": "fire",
+      "n": 333,
+      "n_retention_1": 79,
+      "retention_rate": 0.2372,
+      "spearman_r": 0.6542,
+      "spearman_p": 0.0,
+      "ci_lower": 0.5912,
+      "ci_upper": 0.708,
+      "proto_form_cognate_id": "fire-39",
+      "n_loans_excluded": 0,
+      "n_bootstrap_usable": 500
+    },
+    "WATER": {
+      "role": "control",
+      "param_id": "water",
+      "n": 330,
+      "n_retention_1": 138,
+      "retention_rate": 0.4182,
+      "spearman_r": 0.6164,
+      "spearman_p": 0.0,
+      "ci_lower": 0.5459,
+      "ci_upper": 0.6795,
+      "proto_form_cognate_id": "water-16",
+      "n_loans_excluded": 0,
+      "n_bootstrap_usable": 500
+    },
+    "STONE": {
+      "role": "control",
+      "param_id": "stone",
+      "n": 326,
+      "n_retention_1": 103,
+      "retention_rate": 0.316,
+      "spearman_r": 0.5432,
+      "spearman_p": 0.0,
+      "ci_lower": 0.4647,
+      "ci_upper": 0.6155,
+      "proto_form_cognate_id": "stone-12",
+      "n_loans_excluded": 0,
+      "n_bootstrap_usable": 500
+    }
+  },
+  "empirical_anchor": "FIRE",
+  "empirical_anchor_r": 0.6542,
+  "empirical_anchor_p": 0.0,
+  "prediction_matched": false,
+  "method": {
+    "dedup": "by Glottocode, majority-vote cognate class",
+    "retention_definition": "cognate class equals global mode for concept",
+    "distance": "haversine km from homeland",
+    "bootstrap": {
+      "n": 500,
+      "seed": 42,
+      "method": "percentile"
+    },
+    "loans_excluded": true
+  },
+  "notes": "pre-registered concepts absent from Grollemund basic-vocabulary slate: FOREST, RIVER, BANANA, YAM, MOUNTAIN, SEA, LEFT, RIGHT | Grollemund Loan column is uniformly NaN; no forms were flagged as loans in the source dataset. | empirical anchor FIRE is not in the pre-registered anchor set {FOREST, RIVER}; the corridor-ecology prediction cannot be evaluated against Grollemund's 100-item Swadesh slate."
+}

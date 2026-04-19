@@ -1,0 +1,614 @@
+{
+  "family": "Sino-Tibetan",
+  "data_source": "STEDT bulk via stedtdb.johnblowe.com AJAX",
+  "data_source_url_template": "https://stedtdb.johnblowe.com/search/ajax?tbl=lexicon&s=<concept>",
+  "extraction_date": "2026-04-19",
+  "extension_of": "results/xfam_st_stedt_full.json",
+  "homeland": {
+    "name": "Upper Yellow River basin",
+    "lat": 35.0,
+    "lon": 104.0
+  },
+  "target_roster_size": 153,
+  "method": {
+    "name_matching": "normalise -> exact -> drop-parens -> drop-brackets -> alias table -> token>=4 chars -> difflib cutoff=0.85",
+    "homeland_distance": "haversine km",
+    "retention_rule": "cognate class == global-mode class (ties broken lexicographically)",
+    "bootstrap": {
+      "n": 500,
+      "seed": 42,
+      "method": "percentile"
+    },
+    "nld_threshold": 0.4,
+    "glottocode_lookup_sources": [
+      "data/raw/zhang2019/zhang2019_data.xlsx Language Info",
+      "data/raw/peirosst/cldf/languages.csv",
+      "data/raw/sagartst/cldf/languages.csv"
+    ]
+  },
+  "predictions": {
+    "MILLET": {
+      "predicted_sign": "+",
+      "empirical_sign_method_A": "0",
+      "empirical_sign_method_B": "0",
+      "prediction_vs_method_B": "null-result",
+      "n_method_A": 5,
+      "n_method_B": 70,
+      "r_method_A": 0.866,
+      "r_method_B": -0.1715,
+      "p_method_A": 0.057669,
+      "p_method_B": 0.15584
+    },
+    "TEA": {
+      "predicted_sign": "?",
+      "empirical_sign_method_A": "0",
+      "empirical_sign_method_B": "0",
+      "prediction_vs_method_B": "no-commitment",
+      "n_method_A": 22,
+      "n_method_B": 82,
+      "r_method_A": -0.2308,
+      "r_method_B": 0.0428,
+      "p_method_A": 0.301413,
+      "p_method_B": 0.702702
+    },
+    "SILKWORM": {
+      "predicted_sign": "?",
+      "empirical_sign_method_A": "na",
+      "empirical_sign_method_B": "0",
+      "prediction_vs_method_B": "no-commitment",
+      "n_method_A": 1,
+      "n_method_B": 52,
+      "r_method_A": null,
+      "r_method_B": 0.101,
+      "p_method_A": null,
+      "p_method_B": 0.476278
+    },
+    "HORSE": {
+      "predicted_sign": "-",
+      "empirical_sign_method_A": "-",
+      "empirical_sign_method_B": "0",
+      "prediction_vs_method_B": "null-result",
+      "n_method_A": 92,
+      "n_method_B": 107,
+      "r_method_A": -0.4204,
+      "r_method_B": -0.0374,
+      "p_method_A": 3e-05,
+      "p_method_B": 0.702198
+    },
+    "WHEAT": {
+      "predicted_sign": "-",
+      "empirical_sign_method_A": "0",
+      "empirical_sign_method_B": "0",
+      "prediction_vs_method_B": "null-result",
+      "n_method_A": 5,
+      "n_method_B": 72,
+      "r_method_A": 0.866,
+      "r_method_B": 0.2249,
+      "p_method_A": 0.057669,
+      "p_method_B": 0.05755
+    }
+  },
+  "concepts": {
+    "MILLET": {
+      "role": "anchor (pre-registered positive prediction)",
+      "query_glosses": [
+        "millet",
+        "foxtail millet",
+        "broomcorn millet"
+      ],
+      "include_glosses": [
+        "broomcorn millet",
+        "foxtail millet",
+        "glutinous millet",
+        "millet",
+        "millet (broomcorn)",
+        "millet (foxtail)",
+        "millet (panicum)",
+        "millet (setaria)",
+        "millet / cereal",
+        "millet grain",
+        "millet plant",
+        "non-glutinous millet",
+        "panicum millet",
+        "setaria millet"
+      ],
+      "predicted_sign": "+",
+      "n_raw_forms": 132,
+      "n_forms_matched_to_glottocode": 115,
+      "n_unique_glottocodes": 70,
+      "match_stats": {
+        "exact": 73,
+        "alias": 6,
+        "unmatched": 17,
+        "base": 35,
+        "token": 1
+      },
+      "match_rate": 0.8712,
+      "method_A_expert_etyma": {
+        "description": "STEDT proto-etyma tag as cognate class; rows missing a tag excluded",
+        "n_rows_with_tag": 5,
+        "n": 5,
+        "n_cognate_classes": 3,
+        "retention_rate": 0.4,
+        "spearman_r": 0.866,
+        "spearman_p": 0.057669,
+        "ci_lower": 0.7255,
+        "ci_upper": 1.0,
+        "proto_cognate_class": "b",
+        "n_tied_top_classes": 2
+      },
+      "method_B_nld_cluster": {
+        "description": "Single-link clusters of cleaned reflexes by normalised Levenshtein distance",
+        "threshold": 0.4,
+        "n": 70,
+        "n_cognate_classes": 52,
+        "retention_rate": 0.2,
+        "spearman_r": -0.1715,
+        "spearman_p": 0.15584,
+        "ci_lower": -0.3311,
+        "ci_upper": 0.0107,
+        "proto_cognate_class": "77",
+        "n_tied_top_classes": 1
+      },
+      "per_gloss_fetch_meta": [
+        {
+          "query_gloss": "millet",
+          "status": "ok",
+          "n_returned": 249,
+          "n_new_after_dedup": 249
+        },
+        {
+          "query_gloss": "foxtail millet",
+          "status": "ok",
+          "n_returned": 2,
+          "n_new_after_dedup": 0
+        },
+        {
+          "query_gloss": "broomcorn millet",
+          "status": "ok",
+          "n_returned": 2,
+          "n_new_after_dedup": 0
+        }
+      ]
+    },
+    "TEA": {
+      "role": "later-stage cultural concept",
+      "query_glosses": [
+        "tea",
+        "tea (plant)"
+      ],
+      "include_glosses": [
+        "green tea",
+        "tea",
+        "tea (leaf)",
+        "tea (leaves)",
+        "tea (plant)",
+        "tea / leaves",
+        "tea leaf",
+        "tea leaves",
+        "tea plant",
+        "tea, green"
+      ],
+      "predicted_sign": "?",
+      "n_raw_forms": 177,
+      "n_forms_matched_to_glottocode": 152,
+      "n_unique_glottocodes": 82,
+      "match_stats": {
+        "exact": 89,
+        "alias": 10,
+        "unmatched": 25,
+        "base": 50,
+        "token": 2,
+        "fuzzy": 1
+      },
+      "match_rate": 0.8588,
+      "method_A_expert_etyma": {
+        "description": "STEDT proto-etyma tag as cognate class; rows missing a tag excluded",
+        "n_rows_with_tag": 41,
+        "n": 22,
+        "n_cognate_classes": 12,
+        "retention_rate": 0.2273,
+        "spearman_r": -0.2308,
+        "spearman_p": 0.301413,
+        "ci_lower": -0.5976,
+        "ci_upper": 0.2585,
+        "proto_cognate_class": "786",
+        "n_tied_top_classes": 1
+      },
+      "method_B_nld_cluster": {
+        "description": "Single-link clusters of cleaned reflexes by normalised Levenshtein distance",
+        "threshold": 0.4,
+        "n": 82,
+        "n_cognate_classes": 47,
+        "retention_rate": 0.3659,
+        "spearman_r": 0.0428,
+        "spearman_p": 0.702702,
+        "ci_lower": -0.1894,
+        "ci_upper": 0.2575,
+        "proto_cognate_class": "65",
+        "n_tied_top_classes": 1
+      },
+      "per_gloss_fetch_meta": [
+        {
+          "query_gloss": "tea",
+          "status": "ok",
+          "n_returned": 355,
+          "n_new_after_dedup": 355
+        },
+        {
+          "query_gloss": "tea (plant)",
+          "status": "ok",
+          "n_returned": 3,
+          "n_new_after_dedup": 0
+        }
+      ]
+    },
+    "SILKWORM": {
+      "role": "Sinitic-core cultural concept",
+      "query_glosses": [
+        "silkworm",
+        "silk"
+      ],
+      "include_glosses": [
+        "raw silk",
+        "silk",
+        "silk (thread)",
+        "silk thread",
+        "silk worm",
+        "silk-worm",
+        "silkworm",
+        "silkworm (larva)"
+      ],
+      "predicted_sign": "?",
+      "n_raw_forms": 153,
+      "n_forms_matched_to_glottocode": 143,
+      "n_unique_glottocodes": 52,
+      "match_stats": {
+        "unmatched": 10,
+        "base": 50,
+        "exact": 85,
+        "alias": 4,
+        "token": 2,
+        "fuzzy": 2
+      },
+      "match_rate": 0.9346,
+      "method_A_expert_etyma": {
+        "description": "STEDT proto-etyma tag as cognate class; rows missing a tag excluded",
+        "n_rows_with_tag": 1,
+        "n": 1,
+        "note": "n<5, skipped"
+      },
+      "method_B_nld_cluster": {
+        "description": "Single-link clusters of cleaned reflexes by normalised Levenshtein distance",
+        "threshold": 0.4,
+        "n": 52,
+        "n_cognate_classes": 46,
+        "retention_rate": 0.0769,
+        "spearman_r": 0.101,
+        "spearman_p": 0.476278,
+        "ci_lower": -0.1067,
+        "ci_upper": 0.3213,
+        "proto_cognate_class": "101",
+        "n_tied_top_classes": 1
+      },
+      "per_gloss_fetch_meta": [
+        {
+          "query_gloss": "silkworm",
+          "status": "ok",
+          "n_returned": 81,
+          "n_new_after_dedup": 81
+        },
+        {
+          "query_gloss": "silk",
+          "status": "ok",
+          "n_returned": 284,
+          "n_new_after_dedup": 282
+        }
+      ]
+    },
+    "HORSE": {
+      "role": "loan-suspect animal concept",
+      "query_glosses": [
+        "horse",
+        "pony"
+      ],
+      "include_glosses": [
+        "female horse",
+        "horse",
+        "horse (animal)",
+        "horse (wild)",
+        "horse / pony",
+        "male horse",
+        "mare",
+        "pony",
+        "stallion",
+        "wild horse"
+      ],
+      "predicted_sign": "-",
+      "n_raw_forms": 454,
+      "n_forms_matched_to_glottocode": 360,
+      "n_unique_glottocodes": 107,
+      "match_stats": {
+        "unmatched": 94,
+        "exact": 213,
+        "alias": 18,
+        "base": 122,
+        "fuzzy": 2,
+        "token": 5
+      },
+      "match_rate": 0.793,
+      "method_A_expert_etyma": {
+        "description": "STEDT proto-etyma tag as cognate class; rows missing a tag excluded",
+        "n_rows_with_tag": 255,
+        "n": 92,
+        "n_cognate_classes": 15,
+        "retention_rate": 0.4674,
+        "spearman_r": -0.4204,
+        "spearman_p": 3e-05,
+        "ci_lower": -0.6033,
+        "ci_upper": -0.231,
+        "proto_cognate_class": "1431",
+        "n_tied_top_classes": 1
+      },
+      "method_B_nld_cluster": {
+        "description": "Single-link clusters of cleaned reflexes by normalised Levenshtein distance",
+        "threshold": 0.4,
+        "n": 107,
+        "n_cognate_classes": 37,
+        "retention_rate": 0.5794,
+        "spearman_r": -0.0374,
+        "spearman_p": 0.702198,
+        "ci_lower": -0.2319,
+        "ci_upper": 0.1743,
+        "proto_cognate_class": "102",
+        "n_tied_top_classes": 1
+      },
+      "per_gloss_fetch_meta": [
+        {
+          "query_gloss": "horse",
+          "status": "ok",
+          "n_returned": 1118,
+          "n_new_after_dedup": 1118
+        },
+        {
+          "query_gloss": "pony",
+          "status": "ok",
+          "n_returned": 60,
+          "n_new_after_dedup": 59
+        }
+      ]
+    },
+    "WHEAT": {
+      "role": "loan-suspect crop concept",
+      "query_glosses": [
+        "wheat",
+        "grain"
+      ],
+      "include_glosses": [
+        "grain (wheat)",
+        "wheat",
+        "wheat (grain)",
+        "wheat (plant)",
+        "wheat / grain",
+        "wheat flour",
+        "wheat grain",
+        "wheat plant"
+      ],
+      "predicted_sign": "-",
+      "n_raw_forms": 216,
+      "n_forms_matched_to_glottocode": 195,
+      "n_unique_glottocodes": 72,
+      "match_stats": {
+        "unmatched": 21,
+        "exact": 102,
+        "base": 77,
+        "alias": 13,
+        "fuzzy": 1,
+        "token": 2
+      },
+      "match_rate": 0.9028,
+      "method_A_expert_etyma": {
+        "description": "STEDT proto-etyma tag as cognate class; rows missing a tag excluded",
+        "n_rows_with_tag": 10,
+        "n": 5,
+        "n_cognate_classes": 3,
+        "retention_rate": 0.6,
+        "spearman_r": 0.866,
+        "spearman_p": 0.057669,
+        "ci_lower": 0.7255,
+        "ci_upper": 1.0,
+        "proto_cognate_class": "8018",
+        "n_tied_top_classes": 1
+      },
+      "method_B_nld_cluster": {
+        "description": "Single-link clusters of cleaned reflexes by normalised Levenshtein distance",
+        "threshold": 0.4,
+        "n": 72,
+        "n_cognate_classes": 54,
+        "retention_rate": 0.0833,
+        "spearman_r": 0.2249,
+        "spearman_p": 0.05755,
+        "ci_lower": 0.0335,
+        "ci_upper": 0.3893,
+        "proto_cognate_class": "70",
+        "n_tied_top_classes": 1
+      },
+      "per_gloss_fetch_meta": [
+        {
+          "query_gloss": "wheat",
+          "status": "ok",
+          "n_returned": 563,
+          "n_new_after_dedup": 563
+        },
+        {
+          "query_gloss": "grain",
+          "status": "ok",
+          "n_returned": 967,
+          "n_new_after_dedup": 963
+        }
+      ]
+    }
+  },
+  "unmatched_stedt_names": {
+    "MILLET": [
+      "*Bodo-Garo",
+      "Athpare (Rai)",
+      "Azha",
+      "Damu",
+      "Hlepho Phowa",
+      "Hpun (Northern)",
+      "Kaman [Miju]",
+      "Lalo",
+      "Meluri",
+      "Milang",
+      "Ntenyi",
+      "Paite",
+      "Phuza",
+      "Southern Muji",
+      "Yacham-Tengsa"
+    ],
+    "TEA": [
+      "*Loloish",
+      "*Northern Naga",
+      "Azha",
+      "Chaudangsi",
+      "Damu",
+      "Darma",
+      "Gazhuo",
+      "Hlepho Phowa",
+      "Hpun (Northern)",
+      "Japanese",
+      "Kaman [Miju]",
+      "Lalo",
+      "Lambichong",
+      "Laze (Xiangjiao)",
+      "Meithei",
+      "Milang",
+      "Miri, Hill",
+      "Phola",
+      "Phu Kha",
+      "Phuza",
+      "Pyen",
+      "Raji",
+      "Sila",
+      "Southern Muji"
+    ],
+    "SILKWORM": [
+      "Bwe (Western)",
+      "Deori/Deuri",
+      "Gazhuo",
+      "Kaman [Miju]",
+      "Laze (Xiangjiao)",
+      "Meithei",
+      "Paku",
+      "Pwo (Delta)",
+      "Pwo (Tenasserim)"
+    ],
+    "HORSE": [
+      "*Chin",
+      "*Karen",
+      "*Karen [Burling]",
+      "*Lolo-Burmese",
+      "*Loloish",
+      "*Northern Naga",
+      "*TGTM",
+      "*Tangkhulic",
+      "*Tani",
+      "*Tibeto-Burman",
+      "Ahi",
+      "Azha",
+      "Bisu",
+      "Bwe",
+      "Bwe (Western)",
+      "Chamling",
+      "Champhung",
+      "Chaudangsi",
+      "Damu",
+      "Deori/Deuri",
+      "Gazhuo",
+      "Hlepho Phowa",
+      "Hpun (Northern)",
+      "Huishu",
+      "Japanese",
+      "Kachai",
+      "Kaman [Miju]",
+      "Kayah",
+      "Kayaw",
+      "Kham",
+      "Khoibu",
+      "Khoirao",
+      "Kokborok",
+      "Lai (Falam)",
+      "Lai (Hakha)",
+      "Lakher [Mara]",
+      "Lalo",
+      "Laze (Xiangjiao)",
+      "Lipho",
+      "Maring",
+      "Meithei",
+      "Milang",
+      "Miri, Hill",
+      "Nasu",
+      "Neisu",
+      "Nepali",
+      "Nesu",
+      "Newar",
+      "Newar (Dolakhali)",
+      "Newar (Kathmandu)",
+      "Nosu",
+      "PNL",
+      "Paku",
+      "Phola",
+      "Phu Kha",
+      "Phuza",
+      "Puiron",
+      "Pwo (Delta)",
+      "Pwo (Northern)",
+      "Pwo (Southern)",
+      "Pwo (Tenasserim)",
+      "Pyen",
+      "Sani [Nyi]",
+      "Shili",
+      "Sila",
+      "Sorbung",
+      "Southern Muji",
+      "Sulung [Puroik]",
+      "Tangsa",
+      "Tankghul (Central)",
+      "Tusom",
+      "Yacham-Tengsa"
+    ],
+    "WHEAT": [
+      "*TGTM",
+      "Azha",
+      "Chaudangsi",
+      "Darma",
+      "Deori/Deuri",
+      "Ganzi Danba Geshenzha",
+      "Gazhuo",
+      "Hlepho Phowa",
+      "Hpun (Northern)",
+      "Japanese",
+      "Kaman [Miju]",
+      "Lalo",
+      "Laze (Xiangjiao)",
+      "Phola",
+      "Phuza",
+      "Raji",
+      "Southern Muji",
+      "Sulung [Puroik]"
+    ]
+  },
+  "comparison_to_previous": {
+    "stedt_full_RICE_methodB": {
+      "n": 99,
+      "r": -0.18,
+      "note": "refuted; RICE has no positive gradient at scale"
+    }
+  },
+  "verdict": {
+    "new_positive_predicted_anchors": [],
+    "any_method_B_significant_positive": [],
+    "paper_2_ST_story_updated": "still_nothing_positive"
+  }
+}

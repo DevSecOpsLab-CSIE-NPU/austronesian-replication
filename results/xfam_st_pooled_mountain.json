@@ -1,0 +1,228 @@
+{
+  "family": "Sino-Tibetan",
+  "homeland": {
+    "name": "Upper Yellow River basin",
+    "lat": 35.0,
+    "lon": 104.0
+  },
+  "datasets_pooled": [
+    "sagartst",
+    "zhangst",
+    "peirosst"
+  ],
+  "harmonisation": {
+    "method": "NLD cluster",
+    "threshold": 0.35
+  },
+  "concepts": {
+    "MOUNTAIN": {
+      "pooled": {
+        "n": 113,
+        "spearman_r": -0.1292880489841828,
+        "spearman_p": 0.1723142098766984,
+        "ci_lower": -0.21557517897469142,
+        "ci_upper": -0.04100672619564758,
+        "retention_rate": 0.04424778761061947,
+        "source_counts": {
+          "sagartst": 36,
+          "zhangst": 20,
+          "peirosst": 57
+        }
+      },
+      "sagartst": {
+        "n": 36,
+        "spearman_r": -0.04304976020005051,
+        "spearman_p": 0.8031301038814034,
+        "ci_lower": -0.30394678975542344,
+        "ci_upper": 0.22061029372719915,
+        "retention_rate": 0.16666666666666666
+      },
+      "zhangst": {
+        "n": 24,
+        "spearman_r": -0.22241537499421304,
+        "spearman_p": 0.29620891383482123,
+        "ci_lower": -0.5452676258649329,
+        "ci_upper": 0.12012985879243222,
+        "retention_rate": 0.25
+      },
+      "peirosst": {
+        "n": 84,
+        "spearman_r": 0.026324284420137647,
+        "spearman_p": 0.8121198884477965,
+        "ci_lower": -0.19154860166509466,
+        "ci_upper": 0.26064493424126073,
+        "retention_rate": 0.21428571428571427
+      }
+    },
+    "TREE": {
+      "pooled": {
+        "n": 140,
+        "spearman_r": -0.16417400690580722,
+        "spearman_p": 0.052587836568933316,
+        "ci_lower": -0.3272721213148526,
+        "ci_upper": -0.0025320616488907852,
+        "retention_rate": 0.30714285714285716,
+        "source_counts": {
+          "sagartst": 45,
+          "zhangst": 50,
+          "peirosst": 45
+        }
+      },
+      "sagartst": {
+        "n": 45,
+        "spearman_r": -0.10349003540573358,
+        "spearman_p": 0.4987127857425052,
+        "ci_lower": -0.38459002337876885,
+        "ci_upper": 0.20591782348908913,
+        "retention_rate": 0.6888888888888889
+      },
+      "zhangst": {
+        "n": 66,
+        "spearman_r": 0.021955353966520798,
+        "spearman_p": 0.8610959693273954,
+        "ci_lower": -0.16903077664588784,
+        "ci_upper": 0.18808329559307338,
+        "retention_rate": 0.8939393939393939
+      },
+      "peirosst": {
+        "n": 88,
+        "spearman_r": 0.12336130199254584,
+        "spearman_p": 0.25218218355615457,
+        "ci_lower": -0.11345492132169985,
+        "ci_upper": 0.3703132474973309,
+        "retention_rate": 0.625
+      }
+    },
+    "FIRE": {
+      "pooled": {
+        "n": 134,
+        "spearman_r": -0.15578139023154178,
+        "spearman_p": 0.07227289004099749,
+        "ci_lower": -0.3271549535121994,
+        "ci_upper": 0.02958266212105969,
+        "retention_rate": 0.23134328358208955,
+        "source_counts": {
+          "sagartst": 48,
+          "zhangst": 37,
+          "peirosst": 49
+        }
+      },
+      "sagartst": {
+        "n": 48,
+        "spearman_r": 0.1654284429238069,
+        "spearman_p": 0.26115145245443094,
+        "ci_lower": -0.09498614476559762,
+        "ci_upper": 0.4153828421297961,
+        "retention_rate": 0.7083333333333334
+      },
+      "zhangst": {
+        "n": 37,
+        "spearman_r": -0.19915403049566285,
+        "spearman_p": 0.23732043580508172,
+        "ci_lower": -0.42308516075127905,
+        "ci_upper": 0.08049749678133575,
+        "retention_rate": 0.8378378378378378
+      },
+      "peirosst": {
+        "n": 88,
+        "spearman_r": 0.042077124503646555,
+        "spearman_p": 0.6970933679655148,
+        "ci_lower": -0.08488209115830454,
+        "ci_upper": 0.17968489207149368,
+        "retention_rate": 0.8977272727272727
+      }
+    },
+    "WATER": {
+      "pooled": {
+        "n": 134,
+        "spearman_r": 0.2025422815330537,
+        "spearman_p": 0.01892469060547952,
+        "ci_lower": 0.06951332677457593,
+        "ci_upper": 0.3256761835053456,
+        "retention_rate": 0.13432835820895522,
+        "source_counts": {
+          "sagartst": 48,
+          "zhangst": 38,
+          "peirosst": 48
+        }
+      },
+      "sagartst": {
+        "n": 48,
+        "spearman_r": 0.16508121241937612,
+        "spearman_p": 0.26216775484798305,
+        "ci_lower": -0.13300740072276512,
+        "ci_upper": 0.4372816066455646,
+        "retention_rate": 0.6458333333333334
+      },
+      "zhangst": {
+        "n": 43,
+        "spearman_r": 0.498620687027404,
+        "spearman_p": 0.0006662573894980447,
+        "ci_lower": 0.22638090492469093,
+        "ci_upper": 0.7154759503594754,
+        "retention_rate": 0.4883720930232558
+      },
+      "peirosst": {
+        "n": 88,
+        "spearman_r": 0.35357921433366374,
+        "spearman_p": 0.0007267112519145301,
+        "ci_lower": 0.17378499526615226,
+        "ci_upper": 0.5272581687962264,
+        "retention_rate": 0.3068181818181818
+      }
+    },
+    "STONE": {
+      "pooled": {
+        "n": 144,
+        "spearman_r": -0.05931944155041885,
+        "spearman_p": 0.48003166651101886,
+        "ci_lower": -0.23517645272082793,
+        "ci_upper": 0.11793288204419822,
+        "retention_rate": 0.2986111111111111,
+        "source_counts": {
+          "sagartst": 47,
+          "zhangst": 52,
+          "peirosst": 45
+        }
+      },
+      "sagartst": {
+        "n": 47,
+        "spearman_r": 0.38074818722566345,
+        "spearman_p": 0.008284341960302746,
+        "ci_lower": 0.08763853817826381,
+        "ci_upper": 0.6359616526499415,
+        "retention_rate": 0.3829787234042553
+      },
+      "zhangst": {
+        "n": 68,
+        "spearman_r": 0.029480530804015578,
+        "spearman_p": 0.8113789714859082,
+        "ci_lower": -0.22711878187948467,
+        "ci_upper": 0.28335398044612187,
+        "retention_rate": 0.8235294117647058
+      },
+      "peirosst": {
+        "n": 88,
+        "spearman_r": 0.1651999073576334,
+        "spearman_p": 0.12401354674890432,
+        "ci_lower": -0.053561481105204256,
+        "ci_upper": 0.3747740280624371,
+        "retention_rate": 0.6818181818181818
+      }
+    }
+  },
+  "diagnostics": {
+    "nld_source": "austronesian.analysis.distance.normalized_levenshtein_distance",
+    "zhangst_geo_join": {
+      "matched": 106,
+      "unmatched": 3,
+      "unmatched_names": [
+        "Rongmei_Nruanghmei",
+        "Garo_Bangladesh",
+        "Tshona_Mama"
+      ]
+    },
+    "peirosst_geo_dropped": 37,
+    "pooled_glottocodes_total": 113
+  }
+}
