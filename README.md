@@ -1,6 +1,4 @@
-# Replication Package: *A Cross-Family Migration-Gradient Workflow*
-
-**Paper**: Chao, A. F.-Y. (2026). A Cross-Family Migration-Gradient Workflow with Pre-Registered Replication and Null Reporting. *Digital Scholarship in the Humanities* (DSH). Oxford University Press.
+# Replication Package:
 
 **Repository**: https://github.com/DevSecOpsLab-CSIE-NPU/austronesian-replication
 
